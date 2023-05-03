@@ -1,0 +1,115 @@
+.btn-container {
+  grid-column: center-start/center-end;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding-bottom: 30px;
+  font-family: "Roboto Regular", sans-serif;
+  a {
+    border: 2px solid $green;
+    color: $green;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    &:hover {
+      color: white;
+    }
+  }
+}
+.cards {
+  grid-column: center-start/center-end;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  justify-content: center;
+  font-family: "Roboto Bold", sans-serif;
+  z-index: 5;
+  transform: translateY(-30px);
+  .card {
+    box-shadow: 0 0 10px 1px rgb(175, 175, 175);
+    border-radius: 10px;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: repeat(2, max-content);
+    background-color: white;
+    transition: ease-in-out all 0.3s;
+    &:hover {
+      transform: translateY(-10px);
+    }
+    .img {
+      img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+    }
+
+    &-body {
+      padding: 10px 20px;
+      display: grid;
+      row-gap: 20px;
+      position: relative;
+      .title {    
+        width: 90%;
+        .link-cards{
+          position: absolute;
+          right: 10px;
+          top: 10px;
+        }    
+        i {
+          border: 1px solid rgb(190, 190, 190);
+          color: $green;
+          border-radius: 100%;
+          padding: 10px;
+          transition: ease-in-out all 0.3s;
+          &:hover {
+            background-color: $green;
+            color: white;
+            border: 1px solid $green;
+          }
+        }
+      }
+      p {
+        display: flex;
+        align-items: flex-end;
+        font-family: "Roboto Regular", sans-serif;
+        font-size: 12px;
+        color: $grey-color;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .cards {
+    height: auto;
+    padding: 40px 0;
+    grid-template-columns: repeat(2, 1fr);
+    .card {
+      transform: translateY(0);
+      height: 350px;
+      grid-template-rows: 200px minmax(150px, max-content);
+      &-body {
+        display: flex;
+        flex-direction: column;
+        i {
+          font-size: 20px;
+        }
+        h3 {
+          font-size: 24px;
+        }
+        row-gap: 20px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 750px) {
+  .cards {
+    height: auto;
+    padding: 40px 0;
+    grid-template-columns: 1fr;
+    .card {
+      height: auto;
+    }
+  }
+}

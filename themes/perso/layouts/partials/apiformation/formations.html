@@ -1,0 +1,41 @@
+{{$pageUrl := $.Scratch.Get "pageUrl"}}
+{{with .Site.GetPage $pageUrl }}
+<div class="formations">
+    <div class="content">
+        <div class="title-container">
+            <div class="subtitle">
+                <div class="black-line"></div>
+                <p>{{.Params.FormationSection.text}}</p>
+                <div class="black-line ml-1"></div>
+            </div>
+            <div class="title">
+                {{.Params.FormationSection.title}}
+            </div>
+        </div>
+        <div class="formation-carousel">
+            {{$identifier := .Params.FormationSection.formations}}        
+            {{with .Site.GetPage "/formations"}}        
+            {{range where .Pages ".Params.Title" "in" $identifier }}
+            <div>
+                <div class="slide">
+                    <div class="img">
+                        <img loading="lazy" src="{{.Params.Image}}" alt="">
+                    </div>
+                    <div class="pres">                        
+                        {{.Params.Text | markdownify}}
+                        <div class="container-dl ">
+                            {{ if ne .Params.Signup "" }}                         
+                                <a class="dl sweep-orange" target="_blank" href="{{.Params.Signup}}">s'inscrire</a>                            
+                            {{ else if ne .Params.Catalogue "" }}   
+                            <a class="dl sweep-orange" target="_blank" href="{{.Params.Catalogue}}">télécharger
+                                le catalogue de formation</a>                            
+                            {{end}}
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            {{end}}{{end}}
+        </div>
+    </div>
+</div>
+{{end}}

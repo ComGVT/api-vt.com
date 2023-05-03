@@ -1,0 +1,116 @@
+.contact {
+  grid-column: center-start/center-end;
+  margin: 40px 0;
+  font-family: "Roboto", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px;
+  color: $black;
+  .img {
+    display: flex;
+    align-items: center;
+    img {
+      width: 100%;
+      max-height: 700px;
+      object-fit: cover;
+    }
+  }
+  .img-contact {
+    display: flex;
+    align-items: center;
+    img {
+      width: 100%;
+      height: 650px;
+      object-fit: cover;
+    }
+  }
+  .pres {
+    display: grid;
+    grid-template-rows: repeat(3, min-content) min-content;
+    align-self: center;
+    .subtitle {
+      display: flex;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+    .title {
+      margin-bottom: 20px;
+      font-size: 25px;
+    }
+    .description {
+      margin-bottom: 30px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      input,
+      textarea,
+      select {
+        border-radius: 5px;
+        margin-bottom: 10px;
+        border: 1px solid $text-cover-color;
+        font-size: 14px;
+        padding: 0 10px;
+        color: #757575;
+      }
+      select {
+        cursor: pointer;
+        padding: 0 5px;
+      }
+      textarea {
+        min-height: 150px;
+        padding-top: 10px;
+      }
+      input,
+      select {
+        height: 50px;
+      }
+      .btn-container {
+        margin-top: 25px;
+        button {
+          color: $green;
+          text-transform: uppercase;
+          border: 2px solid $green;
+          background-color: white;
+          border-radius: 5px;
+          width: 120px;
+          height: 35px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 10px 20px;
+          cursor: pointer;
+          &:hover {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .contact {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    img {
+      max-height: 300px;
+      object-fit: cover;
+    }
+  }
+}
+@media screen and (max-width: 650px) {
+  .contact {
+    margin: 40px 0;
+    gap: 20px;
+    .pres {
+      .titles {
+        .title {
+          font-size: 20px;
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+}

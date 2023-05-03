@@ -1,0 +1,21 @@
+{{$pageUrl := $.Scratch.Get "pageUrl"}}
+{{with .Site.GetPage $pageUrl }}
+<div class="cover wrapper" style='background:  linear-gradient(90deg, rgba(41,41,130,1) 0%, rgba(255,255,255,0) 73%),
+url("{{ .Params.Cover.Image}}")'>
+    <div class="cover-content">
+        <div class="pres">
+            <div class="subtitle">
+                <div class="white-line"></div>
+                <p>{{ .Params.Cover.Title}}</p>
+            </div>
+            {{ .Params.Cover.Text | markdownify}}
+        </div>
+        <div class="icone-cover">         
+            {{if ne .Params.Iconepage nil }}
+            <div class="overlay" style='background-color: {{ .Params.Color}};'>
+            </div> <img loading="lazy" src="{{.Params.Iconepage}}" alt="">
+            {{end}}
+        </div>
+    </div>
+</div>
+{{end}}

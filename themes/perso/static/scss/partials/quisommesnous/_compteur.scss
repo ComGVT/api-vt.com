@@ -1,0 +1,62 @@
+.compteur-qui {
+  grid-column: center-start/center-end;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  min-height: 230px;
+  font-family: "Roboto Bold", sans-serif;
+  color: $black;
+  z-index: 5;
+  .count-qui {
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px 1px rgb(161, 161, 161);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    align-items: center;
+    transform: translateY(-30%);
+    .number-container {
+      display: flex;
+      align-items: center;
+      font-size: 30px;
+      .unite {
+        color: $green;
+        font-weight: bolder;
+      }
+      .number {
+        margin: 20px 0;
+        color: $green;
+        font-weight: bolder;
+      }
+    }
+
+    .fonction-qui {
+      color: $grey-color;
+      text-transform: uppercase;
+      text-align: center;
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .compteur-qui {
+    grid-column: center-start/center-end;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px 0;
+    .count-qui {
+      transform: translateY(0);
+      padding: 40px 0;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .compteur-qui {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 40px 0;
+    .count-qui {
+      transform: translateY(0);
+      padding: 40px 0;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{{$pageUrl := $.Scratch.Get "pageUrl"}}
+{{with .Site.GetPage $pageUrl }}
+<div class="mission wrapper">
+    <div class="content">
+        <div class="img">
+            <img loading="lazy" src='{{.Params.textAndMedia.Image}}' alt="">
+        </div>
+        <div class="pres">
+            <div class=subtitle>
+                <div class="black-line"></div>
+                <p>{{.Params.TextAndMedia.Title}}</p>
+            </div>            
+            <div class="description">{{.Params.TextAndMedia.Text | markdownify}}</div>
+        </div>
+    </div>
+</div>
+{{end}}

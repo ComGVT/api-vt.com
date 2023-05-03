@@ -1,0 +1,22 @@
+<div class="cards">
+    {{$pageUrl := $.Scratch.Get "pageUrl"}}
+    {{with .Site.GetPage $pageUrl }}
+    {{range .Params.Cards }}
+    <div class="card">
+        <div class="img ">
+            <img loading="lazy" src="{{.image}}" alt="{{.Params.title}}">
+        </div>
+        <div class="card-body ">
+            <div class="title">
+                {{.text | markdownify}}
+                <a class="link-cards" href="{{.link}}"><i class=" fas fa-arrow-right"></i></a>                
+            </div>
+            <p>{{.Params.text}}</p>
+        </div>
+    </div>
+    {{end}}{{end}}
+
+</div>
+<div class="btn-container">
+    <a class="sweep-green" href="/contact">Demander un devis</a>
+</div>

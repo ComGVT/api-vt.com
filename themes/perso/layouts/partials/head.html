@@ -1,0 +1,39 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/assets/img/logo_RVB_API-general_blanc-600x346.png" />
+    <link rel="canonical" href="https://api-vitaminet.netlify.app/" />
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ .Site.BaseURL }}css/main.min.css" />
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+
+    <!-- Slick carousel -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    {{$seo := $.Scratch.Get "seotitle"}}
+    {{if eq .RelPermalink "/mentions/"}}
+    <title>Mentions légales</title>
+    <meta name="description" content="Mentions légales">
+    {{else if ne $seo nil }}
+    {{$seodesc := $.Scratch.Get "seodescription"}}
+        <title>{{$.Scratch.Get "seotitle"}}</title>
+        <meta name="description" content="{{$seodesc | markdownify}}">
+    {{end}}
+    {{$pageUrl := $.Scratch.Get "pageUrl"}}
+    {{with .Site.GetPage $pageUrl }}
+        <title>{{.Params.seo.seoTitle }}</title>
+        <meta name="description" content="{{.Params.seo.seoDescription}}">
+    {{end}}
+</head>

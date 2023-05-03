@@ -1,0 +1,50 @@
+<!-- Accueil -->
+{{if eq .RelPermalink "/"}}
+{{ $.Scratch.Set "pageUrl" "accueil/accueil.md"  }}
+{{with .Site.GetPage "accueil/accueil.md"}}
+{{ $.Scratch.Set "color" .Params.Color }}
+{{end}}
+<!-- Qui sommes nous -->
+{{else if eq .RelPermalink "/quisommesnous/"}}
+{{with .Site.GetPage "quisommesnous/quisommesnous.md"}}
+{{ $.Scratch.Set "color" .Params.Color }}
+{{end}}
+{{ $.Scratch.Set "pageUrl" "quisommesnous/quisommesnous.md"  }}
+<!-- API Entreprises -->
+{{else if eq .RelPermalink "/apientreprises/"}}
+{{with .Site.GetPage "apientreprises/apientreprises.md"}}
+{{ $.Scratch.Set "color" .Params.Color }}
+{{end}}
+{{ $.Scratch.Set "pageUrl" "apientreprises/apientreprises.md"  }}
+{{ $.Scratch.Set "colorservice" "blue" }}
+<!-- API Chantiers -->
+{{else if eq .RelPermalink "/apichantiers/"}}
+{{with .Site.GetPage "apichantiers/apichantiers.md"}}
+{{ $.Scratch.Set "color" .Params.Color }}
+{{end}}
+{{ $.Scratch.Set "colorName" " " }}
+{{ $.Scratch.Set "colorservice" "green" }}
+{{ $.Scratch.Set "pageUrl" "apichantiers/apichantiers.md"  }}
+<!-- API Formation -->
+{{else if eq .RelPermalink "/apiformation/"}}
+{{with .Site.GetPage "apiformation/apiformation.md"}}
+{{ $.Scratch.Set "color" .Params.Color }}
+{{end}}
+{{ $.Scratch.Set "colorservice" "orange" }}
+{{ $.Scratch.Set "pageUrl" "apiformation/apiformation.md"  }}
+{{ $.Scratch.Set "colorName" "-forma" }}
+<!-- Contact -->
+{{else if eq .RelPermalink "/contact/"}}
+{{with .Site.GetPage "pages-6.md"}}
+{{ $.Scratch.Set "color" .Params.Color }}
+{{end}}
+{{ $.Scratch.Set "pageUrl" "contact/contact.md"  }}
+<!-- Single -->
+{{else }}
+
+{{ $.Scratch.Set "color" .Params.Color }}
+{{ $.Scratch.Set "pageUrl" "apientreprises/apientreprises.md"  }}
+{{ $.Scratch.Set "seotitle" .Params.title  }}
+{{ $.Scratch.Set "seodescription" .Params.text }}
+
+{{end}}

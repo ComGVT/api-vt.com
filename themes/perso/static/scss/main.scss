@@ -1,0 +1,31 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.b {
+  border: 1px solid red;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+@import "./variables";
+@import "./fonctions";
+@import "./partials/navbar";
+@import "./partials/topbanner";
+@import "./partials/cover";
+@import "./partials/accueil/cards";
+@import "./partials/mission";
+@import "./partials/reasons";
+@import "./partials/accueil/compteur";
+@import "./partials/quisommesnous/compteur";
+@import "./partials/quisommesnous/etapes";
+@import "./partials/apichantiers/realisations";
+@import "./partials/apiformation/formations";
+@import "./partials/services-card";
+@import "./partials/services-cards-entre";
+@import "./partials/testimonials";
+@import "./partials/contactsection";
+@import "./partials/bandeaux-contact";
+@import "./partials/single";
+@import "./partials/footer";

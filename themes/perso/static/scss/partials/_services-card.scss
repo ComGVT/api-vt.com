@@ -1,0 +1,296 @@
+.services {
+  grid-column: center-start/center-end;
+  font-family: "Roboto Bold", sans-serif;
+  margin-bottom: 30px;
+  color: $black;
+  display: grid;
+  .title-container {
+    text-align: center;
+    padding: 40px 0;
+    .subtitle {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+    }
+    .title {
+      font-size: 25px;
+    }
+  }
+  .cards-carousel {
+    &.blue{
+      .slick-dots {
+        display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 1rem 0;
+      list-style-type: none;
+      margin-top: 20px;
+      li {
+        margin: 0 0.25rem;
+      }
+      button {
+        display: block;
+        width: 10px;
+        height: 10px;
+        padding: 0;
+        border: none;
+        border-radius: 100%;
+        background-color: rgb(128, 126, 126);
+        text-indent: -9999px;
+        cursor: pointer;
+      }
+        li.slick-active button  {
+          background-color: $blue-color;
+        }
+      }
+    }
+    &.green{
+      .slick-dots {
+        display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 1rem 0;
+      list-style-type: none;
+      margin-top: 20px;
+      li {
+        margin: 0 0.25rem;
+      }
+      button {
+        display: block;
+        width: 10px;
+        height: 10px;
+        padding: 0;
+        border: none;
+        border-radius: 100%;
+        background-color: rgb(128, 126, 126);
+        text-indent: -9999px;
+        cursor: pointer;
+      }
+        li.slick-active button  {
+          background-color: $green;
+        }
+      }
+    }
+    min-width: 100px;
+    width: 100% !important;
+    .slick-list {
+      height: 89%;
+    }
+    .slick-track{
+      height: 96%;
+    }
+
+
+    .service {
+      margin: 0 30px;
+      border-radius: 10px;
+      box-shadow: 0px 5px 5px 6px rgba(216, 216, 216, 0.88);
+      overflow: hidden;
+      height: 100%;
+      .img {
+        img {
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+        }
+      }
+      .pres {
+        padding: 10px 20px;
+        display: grid;
+        min-height: 80px;
+        .title {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 10px;
+          h3 {
+            max-width: 80%;
+          }
+          i {
+            border: 1px solid rgb(196, 196, 196);
+            border-radius: 100%;
+            padding: 10px;
+            transition: all ease-in-out 0.3s;
+            &:hover {
+              color: white !important;
+              background-color: $blue-color;
+              border: 1px solid $blue-color;
+            }
+          }
+        }
+        ul {
+          margin-left: 15px !important;
+          li {
+            color: $grey-color;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  .cards-carousel-chantier {
+    min-width: 100px;
+    width: 100% !important;
+    .slick-arrow-left {
+      visibility: hidden;
+      position: absolute;
+      left: -20px;
+      top: 50%;
+      font-size: 30px;
+      color: $green;
+      cursor: pointer;
+    }
+    .slick-arrow-right {
+      position: absolute;
+      right: -20px;
+      top: 50%;
+      font-size: 30px;
+      color: $green;
+      cursor: pointer;
+    }
+    .slick-list {
+      padding-bottom: 20px;
+    }
+
+    .service {
+      margin: 0 30px;
+      height: 350px;
+      border-radius: 10px;
+      box-shadow: 0px 5px 5px 6px rgba(216, 216, 216, 0.88);
+      overflow: hidden;
+      .img {
+        img {
+          width: 100%;
+          height: 200px;
+          object-fit: cover;
+        }
+      }
+      .pres {
+        padding: 10px 20px;
+        display: grid;
+        min-height: 80px;
+        .title {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 10px;
+          h3 {
+            max-width: 80%;
+          }
+          i {
+            border: 1px solid grey;
+            border-radius: 100%;
+            padding: 10px;
+            transition: all ease-in-out 0.3s;
+            &:hover {
+              color: white !important;
+              background-color: $blue-color;
+              border: 1px solid $blue-color;
+            }
+          }
+        }
+        ul {
+          margin-left: 15px !important;
+          li {
+            color: $grey-color;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .services {
+    grid-column: center-start/center-end;
+    font-family: "Roboto Bold", sans-serif;
+    margin-bottom: 80px;
+    color: $black;
+    display: grid;
+    .title-container {
+      text-align: center;
+      padding: 40px 0;
+      .subtitle {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+      }
+      .title {
+        font-size: 25px;
+      }
+    }
+    .cards-carousel {
+      min-width: 100px;
+      width: 100% !important;
+      .slick-list {
+        min-height: 320px;
+      }
+      .slick-dots {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 1rem 0;
+        list-style-type: none;
+        margin-top: 20px;
+        li {
+          margin: 0 0.25rem;
+        }
+        button {
+          display: block;
+          width: 10px;
+          height: 10px;
+          padding: 0;
+          border: none;
+          border-radius: 100%;
+          background-color: rgb(128, 126, 126);
+          text-indent: -9999px;
+          cursor: pointer;
+        }
+        li.slick-active button {
+          background-color: $blue-color;
+        }
+      }
+      .service {
+        margin: 0 30px;
+        height: 300px;
+        border-radius: 10px;
+        box-shadow: 0px 5px 5px 6px rgba(216, 216, 216, 0.88);
+        overflow: hidden;
+        .img {
+          img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+          }
+        }
+        .pres {
+          margin: 0;
+          padding: 10px 20px;
+          display: grid;
+          height: 80px;
+          .title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            i {
+              border: 1px solid grey;
+              border-radius: 100%;
+              padding: 10px;
+              transition: all ease-in-out 0.3s;
+              &:hover {
+                color: white !important;
+                background-color: $blue-color;
+                border: 1px solid $blue-color;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

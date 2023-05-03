@@ -1,0 +1,38 @@
+{{$pageUrl := $.Scratch.Get "pageUrl"}}
+{{with .Site.GetPage $pageUrl }}
+<div class="contact">
+    <div class="img">
+        <img loading="lazy" src='{{.Params.Contact.Img}}' alt="">
+    </div>
+    <div class="pres">
+        <div class="subtitle">
+            <div class="black-line"></div>
+            <p>{{.Params.Contact.CatTitle}}</p>
+        </div>
+        <div class="title">
+            <h2>{{.Params.Contact.Title}}</h2>
+        </div>
+        <div class="description">
+            {{.Params.Contact.Description | markdownify}}
+        </div>
+        <form action="">
+            <input type="text" name="nom" placeholder="Nom">
+            <input type="mail" name="mail" placeholder="Email">
+            <select name="reason">
+                <option value="entreprises">Une prestation API
+                    Entreprises</option>
+                <option value="chantiers">Une prestation API
+                    Chantiers</option>
+                <option value="accompagnements">L’accompagnement</option>
+                <option value="formation">La formation</option>
+                <option value="candidature">Une candidature</option>
+                <option value="autre">Autre</option>
+            </select>
+            <textarea placeholder="Message" cols="33"></textarea>
+            <div class="btn-container">
+                <button class="hvr-sweep-to-right" type="submit">{{.Params.Contact.Button}}</button>
+            </div>
+        </form>
+    </div>
+</div>
+{{end}}

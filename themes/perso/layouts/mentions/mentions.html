@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    {{ partial "fonctions" . }}
+    {{ partial "head" . }}
+
+<body>
+    <div class="wrapper">
+        {{ partial "topbanner" . }}
+        {{ partial "navbar" . }}
+        {{with .Site.GetPage "page" "mentions-1.md"}}
+        <div class="mentions">
+            {{.Params.Text |safeHTML}}
+        </div>
+        {{end}}
+        {{ partial "footer" . }}
+    </div>
+</body>
+
+</html>

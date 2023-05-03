@@ -1,0 +1,41 @@
+{{$pageUrl := $.Scratch.Get "pageUrl"}}
+{{$colorName := $.Scratch.Get "colorName"}}
+{{with .Site.GetPage $pageUrl }}
+<div class="testimonials wrapper">
+    <div class="content">
+        <div class="title-container">
+            <div class="subtitle">
+                <div class="black-line"></div>
+                {{.Params.TestimonialsSection.text}}
+                <div class="black-line ml-1"></div>
+            </div>
+            <div class="title">
+                {{.Params.TestimonialsSection.title}}
+            </div>
+        </div>
+        <div class='testimonial-carousel{{ $colorName}}'>            
+            {{$identifier := .Params.TestimonialsSection.testimonials}}        
+            {{with .Site.GetPage "/testimonials"}}        
+            {{range where .Pages ".Params.Title" "in" $identifier }}
+            <div class="slide">
+                <div class="infos">
+                    <div class="img">
+                        <img loading="lazy" src="{{.Params.image}}" alt="">
+                    </div>
+                    <div class="infos-description">
+                        <p>{{.Params.Title}} </p>
+                        <p class="poste">{{.Params.poste}}</p>
+                    </div>
+                </div>
+                <div>
+                    {{.Params.text | markdownify}}
+
+                </div>
+            </div>
+            {{end}}{{end}}
+        </div>
+
+   
+    </div>
+</div>
+{{end}}

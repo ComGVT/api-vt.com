@@ -1,0 +1,21 @@
+{{$pageUrl := $.Scratch.Get "pageUrl"}}
+{{with .Site.GetPage $pageUrl }}
+<div class="reasons wrapper">
+    <div class="content">
+        <div class="pres">
+            <div class="titles">
+                <div class="subtitle">
+                    <div class="black-line"></div>                    
+                    <p>{{.Params.ListAndMedia.Title}}</p>                                                            
+                </div>                
+            </div>
+            <div id="reasons" color="{{.Params.Color}}" class="text">
+                {{.Params.ListAndMedia.Text | markdownify}}
+            </div> 
+        </div>
+        <div class="img">
+            <img loading="lazy" src="{{.Params.ListAndMedia.Image}}" alt="">
+        </div>
+    </div>
+</div>
+{{end}}

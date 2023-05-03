@@ -1,0 +1,74 @@
+.compteur {
+  grid-column: full-start/full-end;
+  padding: 30px 0;
+  font-family: "Roboto Bold", sans-serif;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .content {
+    grid-column: center-start/center-end;
+    background-color: white;
+    border-radius: 10px;
+    min-height: 200px;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr min-content 1fr min-content 1fr min-content;
+    hr {
+      &:nth-last-child(1) {
+        display: none !important;
+      }
+      height: 70%;
+      align-self: center;
+      color: rgb(175, 175, 175);
+    }
+    .count {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      .number-container {
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+        .number {
+          margin: 20px 0;
+          font-size: 30px;
+          font-weight: bolder;
+          color: $green;
+        }
+        .unite {
+          font-weight: bolder;
+          color: $green;
+        }
+      }
+
+      .fonction {
+        color: $grey-color;
+        text-transform: uppercase;
+        font-size: 14px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .compteur {
+    .content {
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 20px;
+      padding: 30px 0;
+      hr {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .compteur {
+    .content {
+      grid-template-columns: 1fr;
+    }
+  }
+}

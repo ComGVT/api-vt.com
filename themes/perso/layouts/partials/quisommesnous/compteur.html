@@ -1,0 +1,14 @@
+{{$pageUrl := $.Scratch.Get "pageUrl"}}
+{{with .Site.GetPage $pageUrl }}
+<div class="compteur-qui wrapper">
+    {{range .Params.Counter.Count}}
+    <div class="count-qui">
+
+        <div class="number-container">
+            <div class="number">{{.value}}</div>   
+        </div>
+        <div class="fonction-qui">{{.name}}</div>
+    </div>
+    {{end}}
+</div>
+{{end}}

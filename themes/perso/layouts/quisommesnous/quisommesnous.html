@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+{{ partial "fonctions" . }}
+{{ partial "head" . }}
+
+<body>
+    <div class="wrapper">
+        {{ partial "topbanner" . }}
+        {{ partial "navbar" . }}
+        {{ partial "cover" . }}
+        {{ partial "quisommesnous/compteur" . }}
+        {{ partial "mission" .}}
+        {{ partial "quisommesnous/etapes" . }}
+        {{ partial "reasons" . }}
+        {{ partial "bandeaux-contact" . }}
+        {{ partial "footer" . }}
+    </div>
+</body>
+
+</html>

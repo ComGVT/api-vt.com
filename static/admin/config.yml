@@ -1,0 +1,491 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "static/assets/img"
+public_folder: "/assets/img"
+
+collections:
+  - name: home
+    label: "Accueil"
+    folder: "content/accueil"   
+    fields:
+      - { label: Title, name: title, widget: hidden }
+      - { label: Couleur de la page, name: color, widget: color, default : "#FFF" }
+      - { label: Icone de la page, name: iconepage, widget: image,required: false }
+      - label: "Cover"
+        name: "cover"
+        widget: "object"
+        collapsed: true
+        fields: 
+        - { label: Image cover, name: image, widget: image }
+        - { label: Titre cover, name: title, widget: string }
+        - { label: Texte cover, name: text, widget: markdown }
+      - label: "Liens"
+        name: "cards"
+        widget: "list"   
+        collapsed: true 
+        required: false    
+        fields:
+            [
+              {label: Image , name: image, widget: image ,required: false},
+              {label: Texte , name: text, widget: markdown ,required: false},
+              {label: Lien , name: link, widget: string ,required: false}
+            ]
+      - label: "Section simple"
+        name: "textAndMedia"
+        widget: "object"
+        collapsed: true
+        fields:         
+        - { label: Image, name: image, widget: image }
+        - { label: Titre , name: title, widget: string }        
+        - { label: Texte , name: text, widget: markdown }
+      - label: "Section liste"
+        name: "listAndMedia"
+        widget: "object"
+        collapsed: true
+        fields:         
+        - { label: Image, name: image, widget: image }
+        - { label: Titre , name: title, widget: string }        
+        - { label: Texte , name: text, widget: markdown }
+      - label: "Compteur"
+        name: "counter"
+        widget: "object"
+        collapsed: true
+        allow_add: true
+        fields:
+          [
+            { label: Image , name: image, widget: image },                  
+            { label: Compteur , name: count, widget: list,allow_add: true, fields: [{label: Valeur , name: value, widget: string},{label: Intitulé , name: name, widget: string}] },
+          ]
+      - label: "Section contact"
+        name: "contact"
+        widget: "object"
+        collapsed: true
+        fields:         
+        - { label: Nom de la catégorie , name: catTitle, widget: string }
+        - { label: Titre , name: title, widget: string }
+        - { label: Bouton , name: button, widget: string }
+        - { label: Description , name: description, widget: markdown }
+        - { label: Image de fond , name: img, widget: image }
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        collapsed: true
+        fields:         
+        - { label: Balise Title , name: seoTitle, widget: string }
+        - { label: Balise Description , name: seoDescription, widget: text }
+  - name: quisommesnous
+    label: "Qui sommes-nous"
+    folder: "content/quisommesnous"   
+    fields:
+      - { label: Title, name: title, widget: hidden }
+      - { label: Couleur de la page, name: color, widget: color, default : "#FFF" }
+      - { label: Icone de la page, name: iconepage, widget: image,required: false }
+      - label: "Cover"
+        name: "cover"
+        widget: "object"
+        collapsed: true
+        fields: 
+        - { label: Image cover, name: image, widget: image }
+        - { label: Titre cover, name: title, widget: string }
+        - { label: Texte cover, name: text, widget: markdown }
+      - label: "Compteur"
+        name: "counter"
+        widget: "object"
+        allow_add: true
+        collapsed: true
+        fields:
+          [
+            { label: Image , name: image, widget: image },                  
+            { label: Compteur , name: count, widget: list,allow_add: true, fields: [{label: Valeur , name: value, widget: string},{label: Intitulé , name: name, widget: string}] },
+          ]
+      - label: "Section simple"
+        name: "textAndMedia"
+        widget: "object"
+        collapsed: true
+        
+        fields:         
+        - { label: Image, name: image, widget: image, }
+        - { label: Titre , name: title, widget: string, }        
+        - { label: Texte , name: text, widget: markdown, }
+      - label: "Étapes"
+        name: "steps"
+        widget: "object"
+        collapsed: true
+        required: false
+        fields: 
+        - { label: Titre , name: title, widget: string,required: true }        
+        - { label: Étape, name: step, widget: list,allow_add: false, fields: [{label: Image , name: image, widget: image},{label: Texte , name: text, widget: markdown}] ,required: true }
+      - label: "Section liste"
+        name: "listAndMedia"
+        widget: "object"
+        collapsed: true
+        fields:         
+        - { label: Image, name: image, widget: image }
+        - { label: Titre , name: title, widget: string }        
+        - { label: Texte , name: text, widget: markdown }
+      - label: "Section contact"
+        name: "contact"
+        widget: "object"
+        collapsed: true
+        fields:         
+        - { label: Nom de la catégorie , name: catTitle, widget: string }
+        - { label: Titre , name: title, widget: string }
+        - { label: Bouton , name: button, widget: string }
+        - { label: Description , name: description, widget: markdown }
+        - { label: Image de fond , name: img, widget: image }
+      - label: "SEO"
+        name: "seo"
+        collapsed: true
+        widget: "object"
+        fields:         
+        - { label: Balise Title , name: seoTitle, widget: string }
+        - { label: Balise Description , name: seoDescription, widget: text }
+  - name: apientreprises
+    label: "API Entreprises"
+    folder: "content/apientreprises"   
+    fields:
+      - { label: Title, name: title, widget: hidden }
+      - { label: Couleur de la page, name: color, widget: color, default : "#FFF" }
+      - { label: Icone de la page, name: iconepage, widget: image,required: false }
+      - label: "Cover"
+        name: "cover"
+        widget: "object"
+        collapsed: true
+        fields: 
+        - { label: Image cover, name: image, widget: image }
+        - { label: Titre cover, name: title, widget: string }
+        - { label: Texte cover, name: text, widget: markdown }      
+      - label: "Section services"
+        name: "servicesSection"
+        widget: "object"
+        collapsed: true
+        fields: 
+        - { label: Accroche, name: text, widget: string }
+        - { label: Titre, name: title, widget: string }
+        - label: "Services"
+          name: "services"
+          widget: "relation"
+          collection: "services"
+          search_fields: ["title"]
+          value_field: "title" 
+          required: false
+          multiple: true            
+      - label: "Section témoignages"
+        name: "testimonialsSection"
+        widget: "object"
+        collapsed: true
+        fields: 
+        - { label: Accroche, name: text, widget: string }
+        - { label: Titre, name: title, widget: string }
+        - label: "Témoignages"
+          name: "testimonials"
+          widget: "relation"
+          collection: "testimonials"
+          search_fields: ["title"]
+          value_field: "title" 
+          required: false
+          multiple: true
+      - label: "Section liste"
+        name: "listAndMedia"
+        widget: "object"
+        collapsed: true
+        required: false
+        fields:         
+        - { label: Image, name: image, widget: image,required: false }
+        - { label: Titre , name: title, widget: string,required: false }        
+        - { label: Texte , name: text, widget: markdown,required: false }
+      - label: "Section contact"
+        name: "contact"
+        widget: "object"
+        collapsed: true
+        fields:         
+        - { label: Nom de la catégorie , name: catTitle, widget: string }
+        - { label: Titre , name: title, widget: string }
+        - { label: Bouton , name: button, widget: string }
+        - { label: Description , name: description, widget: markdown }
+        - { label: Image de fond , name: img, widget: image }
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        collapsed: true
+        fields:         
+        - { label: Balise Title , name: seoTitle, widget: string }
+        - { label: Balise Description , name: seoDescription, widget: text }
+  - name: apichantiers
+    label: "API Chantiers"
+    folder: "content/apichantiers"   
+    fields:
+      - { label: Title, name: title, widget: hidden }
+      - { label: Couleur de la page, name: color, widget: color, default : "#FFF" }
+      - { label: Icone de la page, name: iconepage, widget: image,required: false }
+      - label: "Cover"
+        name: "cover"
+        widget: "object"
+        collapsed: true
+        fields: 
+        - { label: Image cover, name: image, widget: image }
+        - { label: Titre cover, name: title, widget: string }
+        - { label: Texte cover, name: text, widget: markdown }      
+      - label: "Section services"
+        name: "servicesSection"
+        widget: "object"
+        collapsed: true
+        fields: 
+        - { label: Accroche, name: text, widget: string }
+        - { label: Titre, name: title, widget: string }
+        - label: "Services"
+          name: "services"
+          widget: "relation"
+          collection: "services"
+          search_fields: ["title"]
+          value_field: "title" 
+          required: false
+          multiple: true            
+      - label: "Section réalisations"
+        name: "realisationsSection"
+        widget: "object"
+        collapsed: true
+        fields: 
+        - { label: Accroche, name: text, widget: string }
+        - { label: Titre, name: title, widget: string }
+        - label: "Réalisations"
+          name: "realisations"
+          widget: "relation"
+          collection: "realisations"
+          search_fields: ["title"]
+          value_field: "title" 
+          required: false
+          multiple: true
+      - label: "Section liste"
+        name: "listAndMedia"
+        widget: "object"
+        collapsed: true
+        required: false
+        fields:         
+        - { label: Image, name: image, widget: image,required: false }
+        - { label: Titre , name: title, widget: string,required: false }        
+        - { label: Texte , name: text, widget: markdown,required: false }
+      - label: "Section contact"
+        name: "contact"
+        widget: "object"
+        collapsed: true
+        fields:         
+        - { label: Nom de la catégorie , name: catTitle, widget: string }
+        - { label: Titre , name: title, widget: string }
+        - { label: Bouton , name: button, widget: string }
+        - { label: Description , name: description, widget: markdown }
+        - { label: Image de fond , name: img, widget: image }
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        collapsed: true
+        fields:         
+        - { label: Balise Title , name: seoTitle, widget: string }
+        - { label: Balise Description , name: seoDescription, widget: text }
+  - name: apiformation
+    label: "API Formation"
+    folder: "content/apiformation"   
+    fields:
+      - { label: Title, name: title, widget: hidden }
+      - { label: Couleur de la page, name: color, widget: color, default : "#FFF" }
+      - { label: Icone de la page, name: iconepage, widget: image,required: false }
+      - label: "Cover"
+        name: "cover"
+        widget: "object"
+        collapsed: true
+        fields: 
+        - { label: Image cover, name: image, widget: image }
+        - { label: Titre cover, name: title, widget: string }
+        - { label: Texte cover, name: text, widget: markdown }      
+      - label: "Section formation"
+        name: "formationSection"
+        widget: "object"
+        collapsed: true
+        fields: 
+        - { label: Accroche, name: text, widget: string }
+        - { label: Titre, name: title, widget: string }
+        - label: "Formations"
+          name: "formation"
+          widget: "relation"
+          collection: "formations"
+          search_fields: ["title"]
+          value_field: "title" 
+          required: false
+          multiple: true            
+      - label: "Section témoignages"
+        name: "testimonialsSection"
+        widget: "object"
+        collapsed: true
+        fields: 
+        - { label: Accroche, name: text, widget: string }
+        - { label: Titre, name: title, widget: string }
+        - label: "Témoignages"
+          name: "testimonials"
+          widget: "relation"
+          collection: "testimonials"
+          search_fields: ["title"]
+          value_field: "title" 
+          required: false
+          multiple: true
+      - label: "Section liste"
+        name: "listAndMedia"
+        widget: "object"
+        collapsed: true
+        required: false
+        fields:         
+        - { label: Image, name: image, widget: image,required: false }
+        - { label: Titre , name: title, widget: string,required: false }        
+        - { label: Texte , name: text, widget: markdown,required: false }
+      - label: "Section contact"
+        name: "contact"
+        widget: "object"
+        collapsed: true
+        fields:         
+        - { label: Nom de la catégorie , name: catTitle, widget: string }
+        - { label: Titre , name: title, widget: string }
+        - { label: Bouton , name: button, widget: string }
+        - { label: Description , name: description, widget: markdown }
+        - { label: Image de fond , name: img, widget: image }
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        collapsed: true
+        fields:         
+        - { label: Balise Title , name: seoTitle, widget: string }
+        - { label: Balise Description , name: seoDescription, widget: text }
+  - name: contact
+    label: "Contact"
+    folder: "content/contact"   
+    fields:
+      - { label: Title, name: title, widget: hidden }
+      - { label: Couleur de la page, name: color, widget: color, default : "#FFF" }
+      - { label: Icone de la page, name: iconepage, widget: image,required: false }
+      - label: "Cover"
+        name: "cover"
+        widget: "object"
+        collapsed: true
+        fields: 
+        - { label: Image cover, name: image, widget: image }
+        - { label: Titre cover, name: title, widget: string }
+        - { label: Texte cover, name: text, widget: markdown }      
+      - label: "Section contact"
+        name: "contact"
+        widget: "object"
+        collapsed: true
+        fields:         
+        - { label: Nom de la catégorie , name: catTitle, widget: string }
+        - { label: Titre , name: title, widget: string }
+        - { label: Bouton , name: button, widget: string }
+        - { label: Description , name: description, widget: markdown }
+        - { label: Image de fond , name: img, widget: image }
+      - label: "SEO"
+        name: "seo"
+        widget: "object"
+        collapsed: true
+        fields:         
+        - { label: Balise Title , name: seoTitle, widget: string }
+        - { label: Balise Description , name: seoDescription, widget: text }
+  - name: "services"
+    label: "Services"
+    folder: "content/services"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Image, name: image, widget: image }
+      - { label: Texte carte, name: text, widget: markdown }
+      - label: "Page service"
+        name: "servicesingle"
+        widget: "object"
+        collapsed: true
+        fields: 
+        - { label: Image cover , name: cover, widget: image }
+        - { label: Image , name: image, widget: image }
+        - { label: Titre , name: title, widget: string }
+        - { label: Texte , name: text, widget: markdown }
+  - name: "formations"
+    label: "Formation"
+    folder: "content/formations"
+    create: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Image, name: image, widget: image }
+      - { label: Texte, name: text, widget: markdown }
+      - { label: Lien s'inscrire, name: signup, widget: string,required: false }
+      - label: "Catalogue"
+        name: "catalogue"
+        widget: "file"
+        media_library:
+          config:
+            multiple: false
+      - { label: Lien catalogue, name: catalog, widget: string,required: false }
+  - name: "testimonials"
+    label: "Témoignages"
+    folder: "content/testimonials"
+    create: true
+    fields:
+      - { label: Image , name: image, widget: image }
+      - { label: Nom , name: title, widget: string }
+      - { label: Poste , name: poste, widget: string,required: false }
+      - { label: Texte , name: text, widget: markdown }
+  - name: "realisations"
+    label: "Réalisations"
+    folder: "content/realisations"
+    create: true
+    fields:
+      - { label: Nom , name: title, widget: string }
+      - { label: Image , name: image, widget: image }
+      - { label: Texte , name: text, widget: markdown }
+  - name: "settings"
+    label: "Settings"
+    folder: "content/settings"
+    public_folder: '/assets/img'
+    fields:
+      - { label: Title, name: title, widget: hidden }
+      - label: "Pied de page"
+        name: "footer"
+        widget: "object"
+        collapsed: true
+        fields:
+          - label: "Logos"
+            name: "logos"
+            widget: "list"
+            allow_add: true
+            field: {label: Image ,name: image, widget: image}          
+          - {label: Texte ,name: text, widget: markdown} 
+      - label: "Contact"
+        name: "contact"
+        widget: "object"
+        collapsed: true
+        fields:
+          - {label: Email , name: mail, widget: string }
+          - {label: Téléphone , name: tel, widget: string }
+          - label: "Réseaux sociaux"
+            name: "socials"
+            widget: "list"
+            allow_add: true
+            field: { 
+                    label: Réseau , 
+                    name: social, 
+                    widget: "object",
+                    fields:
+                    [
+                      {label: Icone , name: icon, widget: image },
+                      {label: Lien , name: link, widget: string }
+                    ]
+                   }
+      - label: "Horaires"
+        name: "horaires"
+        widget: "object"
+        collapsed: true
+        fields:
+          - {label: Jours , name: days, widget: string }
+          - {label: Heures , name: hours, widget: string }
+  - name: "mentions"
+    label: "Mentions légales"
+    folder: "content/mentions"
+    create: false
+    fields:
+      - { label: Titre , name: title, widget: hidden }
+      - { label: Texte , name: text, widget: markdown }

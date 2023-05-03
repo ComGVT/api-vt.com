@@ -1,0 +1,35 @@
+{{$pageUrl := $.Scratch.Get "pageUrl"}}
+{{with .Site.GetPage $pageUrl }}
+<div class="cards-entre">
+    <div class="titles">
+        <div class="subtitle">
+            <div class="black-line2"></div>
+            <div>{{.Params.ServicesSection.text}}</div>
+            <div class="black-line2"></div>
+        </div>
+        <h2>{{.Params.ServicesSection.title}}</h2>
+    </div>
+    <div class="cards ">
+        {{$identifier := .Params.ServicesSection.services}}        
+        {{with .Site.GetPage "/services"}}        
+        {{range where .Pages ".Params.Title" "in" $identifier }}
+        <div id="entreprises-card" class="service">
+            <div class="img">
+                <img loading="lazy" src="{{.Params.Image}}" alt="">
+            </div>
+            <div class="pres">
+                <div class="title-card">
+                    <h3>{{.Title}}</h3>
+                    <a href="{{ .Permalink }}"><i style='color:{{$.Scratch.Get "color"}};'
+                            class="fas fa-arrow-right"></i></a>
+                </div>                
+                {{.Params.Text | markdownify }}                    
+            </div>
+        </div>
+        {{end}}{{end}}
+    </div>
+    <div class="btn-container-entre">
+        <a class="sweep-blue" href="/contact">Demander un devis</a>
+    </div>
+</div>
+{{end}}

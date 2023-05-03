@@ -1,0 +1,54 @@
+baseURL = '/'
+languageCode = 'fr-fr'
+title = 'Api Vitamine'
+theme = "perso"
+
+[permalinks]
+  services =  '/:section/:title/'
+  realisations =  '/:section/:title/'
+
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+googleAnalytics = "UA-123-45"
+
+[params]
+
+	# Content types to disable Disqus on.
+	disableDisqusTypes = ["page"]
+	uglyurls = false
+	featherIconsCDN = true
+
+# Nav.
+[[menu.main]]
+name = "Accueil"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Qui sommes-nous"
+url = "/quisommesnous"
+weight = 2
+
+[[menu.main]]
+name = "API Entreprises"
+url = "/apientreprises"
+weight = 3
+
+[[menu.main]]
+name = "API Chantiers"
+url = "/apichantiers"
+weight = 4
+
+[[menu.main]]
+name = "API Formation"
+url = "/apiformation"
+weight = 5
+
+[[menu.main]]
+name = "Contact"
+url = "/contact"
+weight = 6
+
+

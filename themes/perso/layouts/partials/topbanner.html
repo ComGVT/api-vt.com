@@ -1,0 +1,17 @@
+{{with .Site.GetPage "page" "settings-1.md"}}
+<div id="topbanner" class="top-banner wrapper">
+    <div class="content">
+        <div class="info">
+            <a class="phone" href="tel:{{.Params.Contact.tel}}"><i class=" fas fa-phone-alt"></i>
+                {{.Params.Contact.tel}}</a>
+        </div>
+        <div class="info">
+            <p><i class="fas ml-2 fa-clock"></i> {{.Params.Horaires.days}} {{.Params.Horaires.hours}}</p>
+        </div>
+        <div class="info">
+            <a href="mailto:{{.Params.Contact.mail}}"><i class="ml-2 fas fa-envelope"></i>
+                {{.Params.Contact.mail}}</a>
+        </div>
+    </div>
+</div>
+{{end}}

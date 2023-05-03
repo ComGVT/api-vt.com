@@ -1,0 +1,155 @@
+.formations {
+  grid-column: center-start/center-end;
+  font-family: "Roboto Bold", sans-serif;
+  color: $black;
+  .content {
+    display: grid;
+    padding: 0 0 20px 0;
+  }
+  .container-dl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .dl {
+    border-radius: 5px;
+    border: 2px solid $orange-color;
+    color: $orange-color;
+    padding: 10px 15px;
+    width: max-content;
+    justify-self: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bolder;
+    &:hover {
+      color: white;
+    }
+  }
+  .title-container {
+    padding: 40px 0;
+    .subtitle {
+      display: flex;
+      justify-content: center;
+      text-transform: uppercase;
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+    .title {
+      display: flex;
+      justify-content: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  }
+  .formation-carousel {
+    min-width: 100px;
+    width: 100% !important;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    .slick-list {
+      min-height: 360px;
+      width: 100% !important;
+      overflow: visible;
+    }
+    .img {
+      img {
+        width: 100%;
+        max-height: 200px;
+        object-fit: cover;
+      }
+    }
+
+    .slick-dots {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 1rem 0;
+      list-style-type: none;
+      margin-top: 20px;
+      li {
+        margin: 0 0.25rem;
+      }
+      button {
+        display: block;
+        width: 10px;
+        height: 10px;
+        padding: 0;
+        border: none;
+        border-radius: 100%;
+        background-color: rgb(128, 126, 126);
+        text-indent: -9999px;
+        cursor: pointer;
+      }
+      li.slick-active button {
+        background-color: $orange-color;
+      }
+    }
+    .contact-us {
+      display: flex;
+      justify-content: center;
+      padding: 30px 0;
+    }
+    .slide {
+      margin: 0 20px;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: ease-in-out all 0.3s;
+      cursor: pointer;      
+      box-shadow: 0 0 10px 1px rgb(187, 187, 187);
+      .pres {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        p {
+          margin-bottom: 20px;
+          margin-top: 5px;
+        }
+        .btn {
+          text-transform: uppercase;
+          padding: 10px 20px;
+          border-radius: 5px;
+          color: $orange-color;
+          border: 2px solid $orange-color;
+          background-color: transparent;
+          font-size: 12px;
+          font-weight: bold;
+          &:hover {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 450px) {
+  .formations {
+    .dl {
+      text-align: center;
+      margin: 30px 0 40px 0;
+      border-radius: 5px;
+      padding: 10px 20px;
+      width: auto;
+      a {
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bolder;
+      }
+    }
+    .title-container {
+      padding: 40px 0;
+      .subtitle {
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        font-size: 12px;
+        margin-bottom: 15px;
+        justify-self: center;
+      }
+      .title {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}

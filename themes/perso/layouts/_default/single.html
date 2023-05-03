@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    
+    {{ partial "fonctions" . }}
+    {{ partial "head" . }}
+
+<body>
+    <div class="wrapper">
+        {{ partial "topbanner" . }}
+        {{ partial "navbar" . }}
+        <div class="cover-single wrapper" style='background:  linear-gradient(90deg, rgba(41,41,130,1) 0%, rgba(255,255,255,0) 73%),
+                url("{{.Params.Servicesingle.cover}}")'>
+            <div class="cover-single-content">
+                <div class="pres ">
+                    <div class="subtitle">
+                        <p>Accueil <i class="fas fa-chevron-right"></i> Services <i class="fas fa-chevron-right"></i>
+                            {{.Params.Title}}</p>
+                    </div>
+                    <div class="title">
+                        {{.Params.Title}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="single-wrapper">
+            <div class="img">
+                <img loading="lazy" src="{{.Params.Servicesingle.image}}" alt="">
+            </div>
+            <div class="description">
+                <div class="subtitle">
+                    <div class="black-line"></div>
+                    {{.Params.Servicesingle.title}}
+                </div>                
+                {{.Params.Servicesingle.text | markdownify}}
+            </div>
+        </div>
+
+        {{ partial "testimonials" . }}
+        
+        {{ partial "bandeaux-contact" . }}
+        {{ partial "footer" . }}
+
+    </div>
+
+
+</body>
+
+
+</html>

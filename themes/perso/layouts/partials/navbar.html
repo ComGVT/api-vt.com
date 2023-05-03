@@ -1,0 +1,33 @@
+<div class="navbar" id="navbar">
+    <div class="logo">
+        <a href="{{ .Site.BaseURL }}">
+            <img src="/assets/img/logo_RVB_API-general_transparent-600x346.png" loading="lazy" alt="logo"></a>
+    </div>
+    <i id="menu-icon" class="fas menu-icon fa-bars"></i>
+    <div id="nav-links" class="nav-links">
+        <ul>{{range first 5 .Site.Menus.main}}
+            <li><a class="nav-link-single underline-green-hover" href="{{.URL}}">{{.Name}}</a></li>
+            {{end}}
+        </ul>
+    </div>
+    <div class="btn-contact">
+        {{range after 5 .Site.Menus.main}}
+        <a class="nav-link-single hvr-sweep-to-right" href="{{.URL}}">{{.Name}}</a>
+        {{end}}
+    </div>
+    <div class="banner-top">
+        {{with .Site.GetPage "page" "settings-1.md"}}
+        <div>
+            <a class="phone" href="tel:{{.Params.Contact.tel}}"><i class=" fas fa-phone-alt"></i>
+                {{.Params.Contact.tel}}</a>
+        </div>
+        <div>
+            <p><i class="fas ml-2 fa-clock"></i> {{.Params.Horaires.days}} {{.Params.Horaires.hours}}</p>
+        </div>
+        <div>
+            <a href="mailto:{{.Params.Contact.mail}}"><i class="ml-2 fas fa-envelope"></i>
+                {{.Params.Contact.mail}}</a>
+        </div>
+        {{end}}
+    </div>
+</div>

@@ -1,0 +1,61 @@
+.etapes {
+  grid-column: center-start/center-end;
+  font-family: "Roboto Bold", sans-serif;
+  display: grid;
+  color: $black;
+  .title {
+    font-size: 25px;
+    text-align: center;
+    margin: 80px 0;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    img {
+      width: 60px;
+    }
+    .green-line {
+      background-color: $green;
+      height: 10px;
+    }
+    .etape {
+      img{
+        margin-bottom: 30px;
+      }
+      &:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 10px 1px rgb(192, 192, 192);
+      }
+      transition: all ease-in-out 0.4s;
+      padding: 20px;
+      border-radius: 10px;
+      h4 {
+        font-size: 20px;
+        margin: 25px 0;
+      }
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      p {
+        color: $grey-color;
+        font-size: 14px;
+        width: 90%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .etapes {
+    .content {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .etapes {
+    .content {
+      grid-template-columns: 1fr;
+    }
+  }
+}

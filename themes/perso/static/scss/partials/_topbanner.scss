@@ -1,0 +1,55 @@
+.top-banner {
+  background-color: $background-grey;
+  grid-column: full-start/full-end;
+  font-family: "Roboto Bold", sans-serif;
+  height: 40px;
+  color: #2c2c2c;
+  .content {
+    grid-column: center-start/center-end;
+    display: flex;
+    align-items: center;
+    .info {
+      margin-right: 50px;
+    }
+    i {
+      margin-right: 10px;
+      color: $green;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .top-banner {
+    display: none;
+  }
+  .navbar {
+    position: relative;
+    .top-banner {
+      display: block;
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}
+@media screen and (max-width: 650px) {
+  .top-banner {
+    height: auto;
+    padding: 10px;
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      div {
+        margin-bottom: 5px;
+      }
+      i {
+        margin-left: 0;
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .top-banner {
+    font-size: 14px;
+  }
+}

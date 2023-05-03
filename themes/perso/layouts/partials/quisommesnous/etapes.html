@@ -1,0 +1,16 @@
+{{$pageUrl := $.Scratch.Get "pageUrl"}}
+{{with .Site.GetPage $pageUrl }}
+<div class="etapes">
+    <div class="title">
+        <h2>{{.Params.Steps.title}}</h2>
+    </div>
+    <div class="content">
+        {{range .Params.Steps.step}}
+        <div class="etape">
+            <img loading="lazy" src="{{.image}}" alt="">
+            {{.text | markdownify}}                        
+        </div>
+        {{end}}
+    </div>
+</div>
+{{end}}

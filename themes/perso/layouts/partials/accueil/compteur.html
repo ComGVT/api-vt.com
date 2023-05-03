@@ -1,0 +1,17 @@
+{{$pageUrl := $.Scratch.Get "pageUrl"}}
+{{with .Site.GetPage $pageUrl }}
+<div class="compteur wrapper" style='background:linear-gradient(-90deg, rgba(41,41,130,1) 0%, rgba(255,255,255,0) 100%),
+url("{{.Params.Counter.Image}}")'>
+    <div class="content">
+        {{range .Params.Counter.Count}}
+        <div class="count">
+            <div class="number-container">
+                <div class="number">{{.value}}</div>                
+            </div>
+            <div class="fonction">{{.name}}</div>
+        </div>
+        <hr>
+        {{end}}
+    </div>
+</div>
+{{end}}

@@ -1,0 +1,138 @@
+.realisation {
+  grid-column: full-start/full-end;
+  background-color: $background-grey;
+  font-family: "Roboto Bold", sans-serif;
+  color: $black;
+  .content {
+    grid-column: center-start/center-end;
+    display: grid;
+    .title-container {
+      text-align: center;
+      padding: 40px 0;
+      .subtitle {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+      }
+    }
+    .realisation-carousel {
+      min-width: 100px;
+      width: 100% !important;
+      .slick-slide {
+        margin: 0 10px 0 10px;
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        height: 350px;
+        .img {
+          display: flex;
+          align-items: center;
+          padding-left: 20px;
+          img {
+            width: 100%;
+            object-fit: cover;
+            height: 300px;
+          }
+        }
+
+        .description {
+          padding: 30px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          ul{
+            padding-left: 30px !important;
+            padding-top: 20px !important;            
+          }
+          .name {
+            font-weight: bolder;
+            margin-bottom: 2px;
+            font-size: 20px;
+          }
+          .date {
+            color: $grey-color;
+            margin-bottom: 20px;
+          }
+          .text {
+            color: $grey-color;
+            margin-left: 8px;
+            li {
+              margin-bottom: 5px;
+            }
+          }
+        }
+      }
+      .slick-dots {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 1rem 0;
+        list-style-type: none;
+        margin-top: 20px;
+        li {
+          margin: 0 0.25rem;
+        }
+        button {
+          display: block;
+          width: 10px;
+          height: 10px;
+          padding: 0;
+          border: none;
+          border-radius: 100%;
+          background-color: rgb(128, 126, 126);
+          text-indent: -9999px;
+          cursor: pointer;
+        }
+        li.slick-active button {
+          background-color: $green;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .realisation {
+    .content {
+      .realisation-carousel {
+        .slick-slide {
+          .description {
+            .name {
+              color: $black;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 800px) {
+  .realisation {
+    .content {
+      .realisation-carousel {
+        .slick-slide {
+          grid-template-columns: 1fr;
+          gap: 0;
+          height: auto;
+          min-height: 400px;
+          img {
+            width: 100%;
+            object-fit: cover;
+            height: 200px;
+          }
+          .description {
+            padding: 20px;
+            min-height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{{with .Site.GetPage "page" "settings-1.md"}}
+{{if eq $.Section "services"}}
+<div style='background-color: #292999;' class="footer wrapper">
+    {{else}}
+    <div style='background-color: #666666;' class="footer wrapper">
+        {{end}}
+        <div class="footer-content">
+            <div class="footer-item">
+                <div class="img">
+                    {{ range .Params.Footer.logos}}
+                        <img loading="lazy" src="{{.}}" alt="">
+                    {{end}}
+                </div>
+                <div class="description">
+                    <p>{{.Params.Footer.text | markdownify}}</p>
+                </div>
+                <div class="contact-infos">
+                    <p>Mail : <a class="hover-white" href="mailto:{{.Params.Contact.mail}}">{{.Params.Contact.mail}}</a>
+                    </p>
+                    <p>Téléphone : <a class="phone hover-white"
+                            href="tel:{{.Params.Contact.tel}}">{{.Params.Contact.tel}}</a></p>
+                </div>
+            </div>
+            <div class="footer-item mt-4">
+                <p class="footer-list-title">Navigation</p>
+                <ul>
+                    {{range .Site.Menus.main}}
+                    <li>
+                        <a class="hover-white" href="{{.URL}}">{{.Name}}</a>
+                    </li>
+                    {{end}}
+                </ul>
+            </div>
+            <div class="footer-item mt-4">
+                <p class="footer-list-title">Support</p>
+                <ul>
+                    <li><a class="hover-white" href="/mentions/">Mentions légales</a></li>
+                    <li class="socials">
+                        {{if isset .Params.Contact ".socials"}}
+                        {{range .Params.Contact.Socials}}
+                        <a href="{{.social.link}}" class="reseaux">
+                            <img loading="lazy" src="{{.social.icon}}" alt="{{.social.link}}">
+                        </a>
+                        {{end}}{{end}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    {{end}}
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="{{ .Site.BaseURL }}js/main.js"></script>
+    <script>
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", (user) => {
+                if (!user) {
+                    window.netlifyIdentity.on("login", () => {
+                        document.location.href = "/admin/";
+                    });
+                }
+            });
+        }
+    </script>
