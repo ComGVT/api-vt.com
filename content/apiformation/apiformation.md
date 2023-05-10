@@ -18,6 +18,8 @@ formationSection:
   formations:
     - Accompagnements
     - Formations
+  formation:
+    - test
 testimonialsSection:
   text: TÉMOIGNAGES
   title: Ils sont passés par nos formations
