@@ -440,7 +440,7 @@ a {
 .mentions h1,
 .mentions h2,
 .mentions h3 {
-  text-align: center;
+  text-align: left;
 }
 
 .navbar {
