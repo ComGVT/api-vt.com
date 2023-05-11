@@ -1,10 +1,12 @@
 ---
 title: Mentions légales
 text: >-
+  ```
+
   <h1>En vigueur au 11 mai 2023</h1>
 
 
-  Conformément aux dispositions des Articles 6-III et 19 de la Loi n°2004-575 du 21 juin 2004 pour la Confiance dans l’économie numérique, dite L.C.E.N., il est porté à la connaissance des utilisateurs et visiteurs, ci-après « l’Utilisateur » du site https://api-vt.com/, ci-après le « Site », les présentes mentions légales.
+  <p>Conformément aux dispositions des Articles 6-III et 19 de la Loi n°2004-575 du 21 juin 2004 pour la Confiance dans l’économie numérique, dite L.C.E.N., il est porté à la connaissance des utilisateurs et des visiteurs, ci-après « l’Utilisateur » du site https://api-vt.com/, ci-après le « Site », les présentes mentions légales.</p>
 
 
   La connexion et la navigation sur le Site par l’Utilisateur implique acceptation intégrale et sans réserve présentes mentions légales.
@@ -87,15 +89,13 @@ text: >-
 
   Notre entreprise s’engage en faveur de l’égalité professionnelle entre les femmes et les hommes. Malheureusement, comme pour les années précédentes, dans la mesure où les indicateurs calculables représentent moins de 75 points, notre index de l'égalité professionnelle entre les femmes et les hommes pour l’année 2023 (au titre des données 2022) n’est pas calculable. Cet index est calculé à partir des indicateurs suivants, parmi lesquels certains sont néanmoins calculables et bien notés pour API CHANTIERS :
 
-
-  1. Écart de rémunération entre les femmes et les hommes : malheureusement, cet indicateur n’est toujours pas calculable car l’ensemble des groupes valables (c’est-à-dire comptant au moins 3 femmes et 3 hommes), représentent moins de 40% des effectifs.
-
-
-  2. Écart de taux d’augmentations entre les femmes et les hommes : pour l’index 2023, le taux de salariés augmentés en 2022 est de 25% pour les femmes et 15,9% pour les hommes – ce qui représente un écart favorable aux femmes de 1.1 et qui nous permet d’obtenir une note de 35/35 pour cet indicateur. Si notre entreprise avait obtenu la même note l’année précédente, pour l’index 2022, force est de constater une progression du taux de salariés augmentés dans la mesure où en 2021 ce taux était de 20% pour les femmes et 10,4% pour les hommes.
-
-
-  3. Pourcentage de salariées augmentées dans l’année suivant leur retour de congé maternité : malheureusement, cet indicateur n’est toujours pas calculable, car il n'y a pas eu de retour de congé maternité sur la période de référence.
-
+  <ol>
+      <li>Écart de rémunération entre les femmes et les hommes : malheureusement, cet indicateur n’est toujours pas calculable car l’ensemble des groupes valables (c’est-à-dire comptant au moins 3 femmes et 3 hommes), représentent moins de 40% des effectifs.</li>
+      <li>Écart de taux d’augmentations entre les femmes et les hommes : pour l’index 2023, le taux de salariés augmentés en 2022 est de 25% pour les femmes et 15,9% pour les hommes – ce qui représente un écart favorable aux femmes de 1.1 et qui nous permet d’obtenir une note de 35/35 pour cet indicateur. Si notre entreprise avait obtenu la même note l’année précédente, pour l’index 2022, force est de constater une progression du taux de salariés augmentés dans la mesure où en 2021 ce taux était de 20% pour les femmes et 10,4% pour les hommes.</li>
+      <li>Pourcentage de salariées augmentées dans l’année suivant leur retour de congé maternité : malheureusement, cet indicateur n’est toujours pas calculable, car il n'y a pas eu de retour de congé maternité sur la période de référence.</li>
+  </ol>
 
   Nombre de salariés du sexe sous-représenté parmi les 10 plus hautes rémunérations : pour l’index 2023, le résultat final est 4 (les hommes sont sur-représentés) ; la note obtenue est 10/10. Nous constatons également une progression sur ce point dans la mesure où nous avions obtenu un résultat final de 2 et une note de 5/10 pour l’index 2022, au titre des données 2021.
+
+  ```
 ---
