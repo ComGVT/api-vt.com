@@ -16,19 +16,19 @@ text: >-
   <h2>ARTICLE 1 - L'ÉDITEUR</h2>
 
 
-  Le site https://api-vt.com/ est édité par :
+  <p>Le site https://api-vt.com/ est édité par :</p>
 
 
-  Groupe Vitamine T 2 Boulevard Thomson 59810 LESQUIN 03 20 61 70 70
+  <p>Groupe Vitamine T 2 Boulevard Thomson 59810 LESQUIN 03 20 61 70 70</p>
 
 
-  RCS LILLE 497 636 902 Capital de 1 250 000 € TVA intracommunautaire FR 28 501 765 259
+  <p>RCS LILLE 497 636 902 Capital de 1 250 000 € TVA intracommunautaire FR 28 501 765 259</p>
 
 
-  Responsable de la publication : Mathieu LAGACHE
+  <p>Responsable de la publication : Mathieu LAGACHE</p>
 
 
-  ci-après l'Éditeur".<br>
+  <p>ci-après l'Éditeur".</p><br>
 
 
   <h2>ARTICLE 2 - L'HÉBERGEUR</h2>
