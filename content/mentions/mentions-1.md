@@ -95,4 +95,13 @@ text: >-
   </ol>
 
   Nombre de salariés du sexe sous-représenté parmi les 10 plus hautes rémunérations : pour l’index 2023, le résultat final est 4 (les hommes sont sur-représentés) ; la note obtenue est 10/10. Nous constatons également une progression sur ce point dans la mesure où nous avions obtenu un résultat final de 2 et une note de 5/10 pour l’index 2022, au titre des données 2021.
+
+
+  ```
+
+  h1, h2 {
+   text-align: left;
+  }
+
+  ```
 ---
