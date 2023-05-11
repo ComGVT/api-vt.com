@@ -7,10 +7,10 @@ text: >-
   <p>Conformément aux dispositions des Articles 6-III et 19 de la Loi n°2004-575 du 21 juin 2004 pour la Confiance dans l’économie numérique, dite L.C.E.N., il est porté à la connaissance des utilisateurs et des visiteurs, ci-après « l’Utilisateur » du site https://api-vt.com/, ci-après le « Site », les présentes mentions légales.</p>
 
 
-  La connexion et la navigation sur le Site par l’Utilisateur implique acceptation intégrale et sans réserve présentes mentions légales.
+  <p>La connexion et la navigation sur le Site par l’Utilisateur implique acceptation intégrale et sans réserve présentes mentions légales.</p>
 
 
-  Ces dernières sont accessibles sur le Site à la rubrique « Mentions légales ».<br>
+  <p>Ces dernières sont accessibles sur le Site à la rubrique « Mentions légales ».</p><br>
 
 
   <h2>ARTICLE 1 - L'ÉDITEUR</h2>
@@ -31,8 +31,6 @@ text: >-
   ci-après l'Éditeur".<br>
 
 
-
-
   <h2>ARTICLE 2 - L'HÉBERGEUR</h2>
 
 
@@ -51,8 +49,6 @@ text: >-
   En cas de modification, interruption ou suspension du Site, l'Éditeur ne saurait être tenu responsable.
 
 
-
-
   <h2>ARTICLE 4 - COLLECTE DES DONNÉE</h2>
 
 
@@ -60,8 +56,6 @@ text: >-
 
 
   En vertu du Règlement général sur la protection des données (RGPD), et de la loi Informatique et Libertés, en date du 6 janvier 1978, l'Utilisateur dispose d'un droit d'accès, de rectification, de suppression et d'opposition de ses données personnelles.
-
-
 
 
   <h2>ARTICLE 5 - PROPRIÉTÉ INTELLECTUELLE</h2>
@@ -76,8 +70,6 @@ text: >-
   Toute utilisation, reproduction, diffusion, commercialisation, modification de toutes ou partie du Site, sans autorisation de l’Éditeur est prohibée et pourra entraîner des actions et des poursuites judiciaires telles que notamment prévues par le Code de la propriété intellectuelle et le Code civil.
 
 
-
-
   <h2>ARTICLE 6 - INFORMATIONS ET EXCLUSIONS</h2>
 
 
@@ -88,8 +80,6 @@ text: >-
 
 
   Les liens hypertextes mis en place dans le cadre du présent site internet en direction d’autres ressources présentes sur le réseau Internet ne sauraient engager la responsabilité de l’éditeur de ce site.
-
-
 
 
   <h2>ARTICLE 7 - INDEX D'ÉGALITÉ PROFESSIONNELLE FEMMES/HOMMES</h2>
