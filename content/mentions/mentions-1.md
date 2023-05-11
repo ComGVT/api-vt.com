@@ -10,9 +10,7 @@ text: >-
   La connexion et la navigation sur le Site par l’Utilisateur implique acceptation intégrale et sans réserve présentes mentions légales.
 
 
-  Ces dernières sont accessibles sur le Site à la rubrique « Mentions légales ».
-
-
+  Ces dernières sont accessibles sur le Site à la rubrique « Mentions légales ».<br>
 
 
   <h2>ARTICLE 1 - L'ÉDITEUR</h2>
@@ -30,7 +28,7 @@ text: >-
   Responsable de la publication : Mathieu LAGACHE
 
 
-  ci-après l'Éditeur".
+  ci-après l'Éditeur".<br>
 
 
 
