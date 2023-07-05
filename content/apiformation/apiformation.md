@@ -13,7 +13,7 @@ cover:
 
     API Formation offre un large panel de formations qualifiantes et pré-qualifiantes qui permettent de se former, de retrouver confiance et se préparer à un métier.
 formationSection:
-  text: nos offres de formations
+  text: Nos offres de formations
   title: "-"
   formations:
     - Accompagnements
