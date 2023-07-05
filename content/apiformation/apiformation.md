@@ -19,7 +19,7 @@ formationSection:
     - Accompagnements
     - Formations
   formation:
-    - test ultime
+    - Accompagnements
 testimonialsSection:
   text: TÉMOIGNAGES
   title: Ils sont passés par nos formations
