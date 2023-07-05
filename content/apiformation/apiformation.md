@@ -20,13 +20,13 @@ formationSection:
     - Formations
   formation:
     - test
+    - test ultime
 testimonialsSection:
   text: TÉMOIGNAGES
   title: Ils sont passés par nos formations
   testimonials:
     - Fanta
     - Jérémy
-    - Murielle
 listAndMedia:
   image: /assets/img/5 Pourquoi nous choisir-min copie.webp
   title: ""
