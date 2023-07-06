@@ -18,9 +18,6 @@ formationSection:
   formation:
     - Accompagnements
     - Formations
-    - test
-    - test ultime
-    - lorem
 testimonialsSection:
   text: TÉMOIGNAGES
   title: Ils sont passés par nos formations
