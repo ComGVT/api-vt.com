@@ -13,7 +13,7 @@
             </div>
         </div>
         <div class="formation-carousel">
-            {{$identifier := .Params.FormationSection.formations}}        
+            {{$identifier := .Params.FormationSection.formation}}        
             {{with .Site.GetPage "/formations"}}        
             {{range where .Pages ".Params.Title" "in" $identifier }}
             <div>
