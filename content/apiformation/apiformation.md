@@ -18,7 +18,6 @@ formationSection:
   formation:
     - Accompagnements
     - Formations
-    - Formation animation
 testimonialsSection:
   text: TÉMOIGNAGES
   title: Ils sont passés par nos formations
