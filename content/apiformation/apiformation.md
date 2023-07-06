@@ -19,6 +19,7 @@ formationSection:
     - Accompagnements
     - Formations
     - Test
+    - tatatatataa
 testimonialsSection:
   text: TÉMOIGNAGES
   title: Ils sont passés par nos formations
