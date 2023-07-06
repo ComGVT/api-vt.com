@@ -1469,6 +1469,7 @@ a {
   font-weight: bold;
 }
 .formations .formation-carousel {
+  margin-top: 5px;
   min-width: 100px;
   width: 100% !important;
   display: grid;
