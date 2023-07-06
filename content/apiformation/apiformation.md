@@ -15,10 +15,9 @@ cover:
 formationSection:
   text: Nos offres de formations
   title: "-"
-  formations:
+  formation:
     - Accompagnements
     - Formations
-  formation:
     - test
     - test ultime
     - lorem
