@@ -18,6 +18,7 @@ formationSection:
   formation:
     - Accompagnements
     - Formations
+    - TCF – Intégration, Résidence et Nationalité (IRN)
 testimonialsSection:
   text: TÉMOIGNAGES
   title: Ils sont passés par nos formations
