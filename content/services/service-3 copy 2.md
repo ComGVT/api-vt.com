@@ -10,10 +10,11 @@ servicesingle:
   image: assets/img/3 Pourquoi nous choisir-min.webp
   title: Sous-traitance logistique
   text: >-
-    # Phrase d'accroche service
+    ## Confection Textile et Expertise Industrielle
+
 
     &nbsp;
 
 
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto sint et laboriosam voluptatem quam beatae suscipit exercitationem pariatur similique maxime eaque corporis,lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto sint et laboriosam voluptatem quam beatae suscipit exercitationem pariatur similique maxime eaque corporis, lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto sint et laboriosam voluptatem quam beatae suscipit exercitationem pariatur similique maxime eaque corporis
+    Mêlant confection textile et sous-traitance industrielle, nous offrons des services diversifiés avec un haut niveau de compétence. Nous nous concentrons sur une qualité sans compromis pour nos produits textiles et fournissons des solutions de logistique industrielles fiables, soutenues par une équipe dédiée.
 ---
