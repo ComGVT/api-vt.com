@@ -3,7 +3,7 @@ title: API Entreprises
 color: "#5AA9DB"
 iconepage: /assets/img/API Entreprises blanc.png
 cover:
-  image: /assets/img/1 Intro-min copie.webp
+  image: /assets/img/intro-entreprise.jpg
   title: API Entreprises
   text: >-
     # Des prestations adaptées à vos besoins
@@ -32,7 +32,7 @@ testimonialsSection:
     - Nicolas
     - Vanessa
 listAndMedia:
-  image: /assets/img/6-Pourquoi-nous-choisir-min_1.webp
+  image: /assets/img/intro-nous.jpg
   title: Nous sommes un acteur majeur de l’inclusion
   text: >-
     # **Pourquoi nous choisir ?** 
@@ -72,7 +72,7 @@ contact:
     faveur de l’inclusion ? Contactez-nous !
   catTitle: CONTACT
   button: Contactez-nous
-  img: /assets/img/contact.webp
+  img: /assets/img/contact-01.jpg
 seo:
   seoTitle: API Entreprises
   seoDescription: Description API Entreprises
