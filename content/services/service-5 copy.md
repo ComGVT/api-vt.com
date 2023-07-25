@@ -1,6 +1,6 @@
 ---
 title: Réhabilitation de bâtiments historiques
-image: /assets/img/reha.webp
+image: /assets/img/historique-03.jpg
 text: |-
   * **Échaffaudage**
   * **Façade**
@@ -10,8 +10,8 @@ text: |-
   * **Rénovation bâtiment**
 page: API Chantiers
 servicesingle:
-  cover: /assets/img/2 Réhabilitation de sites historiques-min.webp
-  image: /assets/img/2 Réhabilitation de sites historiques-min.webp
+  cover: /assets/img/historique-01.jpg
+  image: /assets/img/historique-02.jpg
   title: Réhabilitation de bâtiments historiques
   text: >-
     # TOUS TYPE DE TRAVAUX 
