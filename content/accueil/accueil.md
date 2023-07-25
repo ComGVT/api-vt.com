@@ -2,7 +2,7 @@
 title: Accueil
 color: "#34a07a"
 cover:
-  image: assets/img/1  Intro-min.webp
+  image: /assets/img/intro-01.jpg
   title: Bienvenue chez API
   text: >-
     # Engagés en faveur de l’inclusion
@@ -24,7 +24,7 @@ cards:
 
 
       API Entreprises propose plusieurs services : industrie (sous-traitance industrielle, confection textile, etc.) ; recyclage (tri, démantèlement, dépollution, valorisation) ; services aux entreprises et aux collectivités (montage de chapiteaux, construction modulaire, implant en entreprise, etc.)
-    image: assets/img/1 Intro-min copie.webp
+    image: /assets/img/intro-entreprise.jpg
   - link: /apichantiers
     text: >-
       ### API Chantiers
@@ -33,7 +33,7 @@ cards:
 
 
       API Chantiers propose plusieurs services : réhabilitation de patrimoine historique, bâtiment second œuvre, entretien des espaces verts, etc.
-    image: assets/img/3 API Chantiers-min.webp
+    image: /assets/img/second-oeuvre-02.jpg
   - link: /apiformation
     text: >-
       ### API Formation
@@ -42,9 +42,9 @@ cards:
 
 
       API Formation offre un large panel de formation préqualifiantes et qualifiantes mais aussi de prestations d’accompagnement social et de coaching emploi, permettant ainsi de se former, de retrouver confiance et se préparer à un métier.
-    image: assets/img/4 API Formation-min.webp
+    image: /assets/img/intro-formation.jpg
 textAndMedia:
-  image: /assets/img/5 Notre mission-min.webp
+  image: /assets/img/nous-choisir.jpg
   title: NOTRE MISSION
   text: >-
     # **Accompagner nos salariés et satisfaire nos clients**
@@ -55,7 +55,7 @@ textAndMedia:
 
     En se certifiant ISO 9001, API s’est fixé pour missions de répondre à un double engagement : celui d’accompagner nos salariés vers l’emploi durable et celui de satisfaire aux exigences qualité de nos clients
 listAndMedia:
-  image: /assets/img/6-Pourquoi-nous-choisir-min_1.webp
+  image: /assets/img/intro-nous.jpg
   title: Nous sommes un acteur majeur de l’inclusion
   text: >-
     # **Pourquoi nous choisir ?** 
@@ -95,7 +95,7 @@ counter:
       name: "départements d'implantation : Ardennes (08) et Aisne (02)"
     - value: 6M€
       name: de chiffre d’affaires
-  image: assets/img/1  Intro-min.webp
+  image: /assets/img/intro-01.jpg
 contact:
   catTitle: contact
   title: Vous recherchez des salariés ?
@@ -104,7 +104,7 @@ contact:
     de développement industriels, d’économie circulaire ? En recherche d’une
     solution pour l’entretien ou la valorisation de votre site ? Contactez-nous
     !
-  img: /assets/img/contact.webp
+  img: /assets/img/contact-01.jpg
 seo:
   seoTitle: Accueil
   seoDescription: Description Accueil
