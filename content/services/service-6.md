@@ -1,6 +1,6 @@
 ---
 title: Entretien des espaces verts
-image: /assets/img/entretien.webp
+image: /assets/img/espace-vert-001.jpg
 text: |-
   * **Bucheronnage, broyage**
   * **Élagage, travaux en pente** 
@@ -8,8 +8,8 @@ text: |-
   * **Plantations**
 page: API Chantiers
 servicesingle:
-  cover: /assets/img/4 Entretien des espaces verts-min.webp
-  image: /assets/img/4 Entretien des espaces verts-min.webp
+  cover: /assets/img/espace-vert-03.jpg
+  image: /assets/img/espace-vert-02.jpg
   title: Entretien des espaces verts
   text: >-
     # Valorisation de vos Espaces Naturels
