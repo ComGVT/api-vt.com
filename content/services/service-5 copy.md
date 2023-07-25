@@ -20,5 +20,5 @@ servicesingle:
     &nbsp;
 
 
-    En plein développement, notre activité de sous-traitance industrielle emploie 20 salariés sur des missions de logistique, stockage, montage de colis, préparation de commande, emballage dans la ZA Activence.
+    Spécialistes en échafaudage, façade, rejointement et ouvrage d'art, nous excellons également dans les travaux de second œuvre et la rénovation de bâtiments. Avec une expérience solide, nous mettons à votre disposition un savoir-faire unique pour garantir la réussite de tous vos projets de construction et de rénovation.
 ---
