@@ -10,7 +10,7 @@ text: >-
 
 
   [C﻿liquez ici pour plus d'information](/assets/img/tcf-1.pdf)
-signup: https://api-vt.com/contact/
+signup: assets/img/fiche-inscription-examen-tcf-irn-v1.pdf
 catalogue: /assets/img/tcf-1.pdf
 catalog: /assets/img/tcf-1.pdf
 ---
