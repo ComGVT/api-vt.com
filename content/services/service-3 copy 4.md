@@ -1,6 +1,6 @@
 ---
 title: Sous-traitance industrielle
-image: /assets/img/2 Industrie-min.webp
+image: /assets/img/industrie.jpg
 text: |-
   * **Tri** 
 
@@ -13,8 +13,8 @@ text: |-
   * **Logistique**
 page: API Entreprises
 servicesingle:
-  cover: /assets/img/img-reason.webp
-  image: /assets/img/img-reason.webp
+  cover: /assets/img/industrie.jpg
+  image: /assets/img/industrie.jpg
   title: Sous-traitance logistique
   text: >-
     # Sous-traitance industrielle
