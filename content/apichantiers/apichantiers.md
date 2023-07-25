@@ -3,7 +3,7 @@ title: API Chantiers
 color: "#34AD65"
 iconepage: /assets/img/API Chantiers blanc bis.png
 cover:
-  image: /assets/img/1 Intro-min copie 2.webp
+  image: /assets/img/second-oeuvre-02.jpg
   title: API Chantiers
   text: >-
     # Des prestations adaptées à vos besoins
@@ -15,7 +15,7 @@ cover:
     API Chantiers est spécialisée sur la réhabilitation de bâtiments historiques, le second œuvre, l’entretien des espaces verts à destination des collectivités, des entreprises et des particuliers, et le multiservices.
 servicesSection:
   text: nos offres de services
-  title: Phrase d'accroche sur les services
+  title: Entretien, multiservices, réhabilitation
   services:
     - Réhabilitation de bâtiments historiques
     - Entretien des espaces verts
@@ -29,7 +29,7 @@ realisationsSection:
     - "Second œuvre : Peinture-Isolation"
     - Réhabilitation de bâtiments historiques
 listAndMedia:
-  image: /assets/img/6-Pourquoi-nous-choisir-min_1.webp
+  image: /assets/img/intro-nous.jpg
   title: Nous sommes un acteur majeur de l’inclusion
   text: >-
     # **Pourquoi nous choisir ?** 
@@ -69,7 +69,7 @@ contact:
     faveur de l’inclusion ? Contactez-nous !
   catTitle: CONTACT
   button: Contactez-nous
-  img: /assets/img/contact.webp
+  img: /assets/img/contact-01.jpg
 seo:
   seoTitle: API Chantiers
   seoDescription: Description API Chantiers
