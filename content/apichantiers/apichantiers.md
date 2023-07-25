@@ -18,9 +18,9 @@ servicesSection:
   title: Phrase d'accroche sur les services
   services:
     - Réhabilitation de bâtiments historiques
-    - Second œuvre
     - Entretien des espaces verts
     - Services
+    - Sous-traitance logistique
 realisationsSection:
   text: NOS RÉALISATIONS
   title: Entretien, multiservices, réhabilitation
