@@ -6,8 +6,8 @@ text: |-
   * **Montage de chapiteaux**  
 page: API Entreprises
 servicesingle:
-  cover: /assets/img/img-reason.webp
-  image: /assets/img/img-reason.webp
+  cover: /assets/img/ser.webp
+  image: /assets/img/ser.webp
   title: Sous-traitance logistique
   text: >-
     # Châpiteaux et espace modulaire
