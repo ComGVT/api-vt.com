@@ -8,8 +8,8 @@ text: |-
   * **Démantèlement**  
 page: API Entreprises
 servicesingle:
-  cover: assets/img/1 Intro-min copie 3.webp
-  image: assets/img/1 Intro-min.webp
+  cover: /assets/img/recyclage.jpg
+  image: /assets/img/recyclage-2.jpg
   title: Sous-traitance logistique
   text: >-
     # Exigence Environnementale
