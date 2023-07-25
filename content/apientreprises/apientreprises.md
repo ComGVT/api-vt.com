@@ -14,7 +14,7 @@ cover:
     API Entreprises propose plusieurs services : industrie (sous-traitance industrielle, confection textile, etc.) ; recyclage (tri, démantèlement, dépollution, valorisation) ; services aux entreprises et aux collectivités (montage de chapiteaux, construction modulaire, implant en entreprise, etc.)
 servicesSection:
   text: nos offres de services
-  title: Phrase d'accroche sur les services
+  title: Pour vous accompagner dans vos projets
   services:
     - Confection Textile
     - Montage de chapiteaux
