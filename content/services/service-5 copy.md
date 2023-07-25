@@ -1,24 +1,23 @@
 ---
 title: Réhabilitation de bâtiments historiques
 image: /assets/img/reha.webp
-text: >-
-  * **taille de pierres**
-  
-  * **rénovation bâtiment, bâti ancien, etc.** 
+text: |-
+  * **Échaffaudage**
+  * **Façade**
+  * **Rejointement**
+  * **Ouvrage d’art**
+  * **Second œuvre**
+  * **Rénovation bâtiment**
 page: API Chantiers
 servicesingle:
   cover: /assets/img/2 Réhabilitation de sites historiques-min.webp
   image: /assets/img/2 Réhabilitation de sites historiques-min.webp
   title: Réhabilitation de bâtiments historiques
   text: >-
-    # Phrase d'accroche service
+    # TOUS TYPE DE TRAVAUX 
 
     &nbsp;
-    
 
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto sint et laboriosam voluptatem quam beatae
-    suscipit exercitationem pariatur similique maxime eaque corporis,lorem ipsum dolor sit, amet consectetur
-    adipisicing elit. Architecto sint et laboriosam voluptatem quam beatae suscipit exercitationem pariatur
-    similique maxime eaque corporis, lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto sint et
-    laboriosam voluptatem quam beatae suscipit exercitationem pariatur similique maxime eaque corporis
+
+    En plein développement, notre activité de sous-traitance industrielle emploie 20 salariés sur des missions de logistique, stockage, montage de colis, préparation de commande, emballage dans la ZA Activence.
 ---
