@@ -14,7 +14,8 @@ servicesingle:
   image: /assets/img/historique-02.jpg
   title: Réhabilitation de bâtiments historiques
   text: >-
-    # TOUS TYPE DE TRAVAUX 
+    # TOUS TYPES DE TRAVAUX
+
 
     &nbsp;
 
