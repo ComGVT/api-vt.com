@@ -1,12 +1,12 @@
 ---
 title: Confection Textile
-image: /assets/img/2 Industrie-min.webp
+image: /assets/img/textile-ensemble-03.jpg
 text: |-
   * **Confection textile**
   * **Sous traitance industrielle**  
 page: API Entreprises
 servicesingle:
-  cover: /assets/img/5 Notre mission-min.webp
+  cover: /assets/img/textile-ensemble-02.jpg
   image: /assets/img/textile-ensemble.jpg
   title: Sous-traitance logistique
   text: >-
