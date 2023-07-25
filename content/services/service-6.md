@@ -1,13 +1,10 @@
 ---
 title: Entretien des espaces verts
 image: /assets/img/entretien.webp
-text: >-
+text: |-
   * **tonte**
-
   * **découpe de bordures** 
-
   * **bucheronnage** 
-  
   * **etc.** 
 page: API Chantiers
 servicesingle:
@@ -15,14 +12,11 @@ servicesingle:
   image: /assets/img/4 Entretien des espaces verts-min.webp
   title: Entretien des espaces verts
   text: >-
-    # Phrase d'accroche service
+    # Valorisation de vos Espaces Naturels
+
 
     &nbsp;
-    
 
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto sint et laboriosam voluptatem quam beatae
-    suscipit exercitationem pariatur similique maxime eaque corporis,lorem ipsum dolor sit, amet consectetur
-    adipisicing elit. Architecto sint et laboriosam voluptatem quam beatae suscipit exercitationem pariatur
-    similique maxime eaque corporis, lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto sint et
-    laboriosam voluptatem quam beatae suscipit exercitationem pariatur similique maxime eaque corporis
+
+    Fortes de plus de 15 ans d’expérience dans la gestion des espaces verts pour les collectivités, les entreprises ou les particuliers, nos équipes travaillent dans le respect des réglementations environnementales pour la mise en valeur des espaces urbains, ruraux et des milieux naturels sensibles.
 ---
