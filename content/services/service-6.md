@@ -2,10 +2,10 @@
 title: Entretien des espaces verts
 image: /assets/img/entretien.webp
 text: |-
-  * **tonte**
-  * **découpe de bordures** 
-  * **bucheronnage** 
-  * **etc.** 
+  * **Bucheronnage, broyage**
+  * **Élagage, travaux en pente** 
+  * **Tonte, débroussaillage** 
+  * **Plantations**
 page: API Chantiers
 servicesingle:
   cover: /assets/img/4 Entretien des espaces verts-min.webp
