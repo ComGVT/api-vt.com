@@ -1,6 +1,6 @@
 ---
 title: Second œuvre
-image: /assets/img/secondoeuvre.webp
+image: /assets/img/second-oeuvre-04.jpg
 text: |-
   * **peinture**
   * **isolation** 
@@ -8,8 +8,8 @@ text: |-
   * **etc.** 
 page: API Chantiers
 servicesingle:
-  cover: /assets/img/3 Second oeuvre-min.webp
-  image: /assets/img/3 Second oeuvre-min.webp
+  cover: /assets/img/second-oeuvre-02.jpg
+  image: /assets/img/second-oeuvre-03.jpg
   title: Second œuvre
   text: >-
     # Services et second œuvre
