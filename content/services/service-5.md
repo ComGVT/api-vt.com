@@ -1,13 +1,10 @@
 ---
 title: Second œuvre
 image: /assets/img/secondoeuvre.webp
-text: >-
+text: |-
   * **peinture**
-
   * **isolation** 
-
   * **électricité** 
-  
   * **etc.** 
 page: API Chantiers
 servicesingle:
@@ -15,14 +12,13 @@ servicesingle:
   image: /assets/img/3 Second oeuvre-min.webp
   title: Second œuvre
   text: >-
-    # Phrase d'accroche service
+    # Services et second œuvre
+
 
     &nbsp;
-    
 
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto sint et laboriosam voluptatem quam beatae
-    suscipit exercitationem pariatur similique maxime eaque corporis,lorem ipsum dolor sit, amet consectetur
-    adipisicing elit. Architecto sint et laboriosam voluptatem quam beatae suscipit exercitationem pariatur
-    similique maxime eaque corporis, lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto sint et
-    laboriosam voluptatem quam beatae suscipit exercitationem pariatur similique maxime eaque corporis
+
+    \
+
+    Offrant une gamme de services incluant la peinture, l'isolation, l'électricité, et bien plus, nous sommes votre partenaire tout-en-un pour vos besoins en rénovation et en aménagement. Notre engagement est de fournir un travail de haute qualité, respectant vos délais et votre budget.
 ---
