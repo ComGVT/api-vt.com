@@ -20,7 +20,7 @@ servicesSection:
     - Réhabilitation de bâtiments historiques
     - Entretien des espaces verts
     - Services
-    - Sous-traitance logistique
+    - Sous-traitance industrielle
 realisationsSection:
   text: NOS RÉALISATIONS
   title: Entretien, multiservices, réhabilitation
