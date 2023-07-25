@@ -2,7 +2,7 @@
 title: Qui sommes-nous?
 color: "#34a07a"
 cover:
-  image: /assets/img/1  Intro-min.webp
+  image: /assets/img/intro-01.jpg
   title: Qui sommes nous
   text: >-
     # 16 années d’expérience dans l’insertion par l’activité économique
@@ -38,9 +38,9 @@ counter:
       name: "départements d'implantation : Ardennes (08) et Aisne (02)"
     - value: 6M€
       name: de chiffre d’affaires
-  image: assets/img/1  Intro-min.webp
+  image: /assets/img/intro-01.jpg
 textAndMedia:
-  image: /assets/img/2 Focus accompagnement-min.webp
+  image: /assets/img/intro-nous-02.jpg
   title: Notre démarche
   text: >-
     # Tout le monde est employable !
@@ -92,7 +92,7 @@ steps:
         Au sein de l’ensemblier API, l’inclusion de nos publics est l’affaire de tous. Toute l’équipe permanente est entièrement tournée vers l’objectif du retour à l’emploi de nos publics en transition professionnelle. En sus, nous disposons d’une équipe de coachs emploi au service des employeurs pour suivre leurs besoins et l’adaptation de nos salariés aux exigences des postes à pouvoir en leur sein.
   title: 4 étapes pour une insertion réussie
 listAndMedia:
-  image: /assets/img/6-Pourquoi-nous-choisir-min_1.webp
+  image: /assets/img/intro-nous.jpg
   title: Nous sommes un acteur majeur de l’inclusion
   text: >-
     # **Pourquoi nous choisir ?** 
@@ -132,7 +132,7 @@ contact:
     faveur de l’inclusion ? Contactez-nous !
   catTitle: CONTACT
   button: Contactez-nous
-  img: /assets/img/contact.webp
+  img: /assets/img/contact-01.jpg
 seo:
   seoTitle: Qui sommes-nous
   seoDescription: Description Qui sommes-nous
