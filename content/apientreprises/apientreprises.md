@@ -17,11 +17,11 @@ servicesSection:
   title: Phrase d'accroche sur les services
   services:
     - Confection Textile
-    - Construction modulaire
     - Montage de chapiteaux
     - Recyclage
     - Sous-traitance industrielle
     - Sous-traitance logistique
+    - Services
 testimonialsSection:
   text: TÉMOIGNAGES
   title: Ils nous font confiance
