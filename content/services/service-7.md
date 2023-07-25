@@ -1,6 +1,6 @@
 ---
 title: Services
-image: /assets/img/multiservices.webp
+image: /assets/img/service-01.jpg
 text: "* **Accueil et tourisme**
 
   * **Nettoyage et entretien**\r
@@ -12,15 +12,15 @@ text: "* **Accueil et tourisme**
   * **Confection**"
 page: API Chantiers
 servicesingle:
-  cover: /assets/img/5 Multiservices-min.webp
-  image: /assets/img/5 Multiservices-min.webp
+  cover: /assets/img/service-03.jpg
+  image: /assets/img/service-02.jpg
   title: Multiservices
   text: >-
-    # Service Industriel sur Mesure à Activence
+    # Multiservice: Engagement et Polyvalence 
 
 
     &nbsp;
 
 
-    En plein développement, notre activité de sous-traitance industrielle emploie 20 salariés sur des missions de logistique, stockage, montage de colis, préparation de commande, emballage dans la ZA Activence.
+    De l'accueil et tourisme au déneigement, du nettoyage et entretien à la confection, nous sommes là pour répondre à une multitude de vos besoins. Nous proposons également des solutions d'implantation en entreprise, le tout avec un engagement constant envers le service de qualité et l'efficacité.
 ---
