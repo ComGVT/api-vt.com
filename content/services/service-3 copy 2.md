@@ -1,6 +1,6 @@
 ---
 title: Sous-traitance logistique
-image: /assets/img/2 Industrie-min.webp
+image: /assets/img/logistique.jpg
 text: |-
   * **Confection textile**
   * **Sous traitance industrielle**  
