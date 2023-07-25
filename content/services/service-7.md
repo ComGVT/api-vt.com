@@ -1,28 +1,26 @@
 ---
-title: Multiservices
+title: Services
 image: /assets/img/multiservices.webp
-text: >-
-  * **déneigement**
+text: "* **Accueil et tourisme**
 
-  * **lavage de véhicules** 
+  * **Nettoyage et entretien**\r
 
-  * **propreté** 
-  
-  * **etc.** 
+  * **Implant en entreprise** \r
+
+  * **Déneigement** \r
+
+  * **Confection**"
 page: API Chantiers
 servicesingle:
   cover: /assets/img/5 Multiservices-min.webp
   image: /assets/img/5 Multiservices-min.webp
   title: Multiservices
   text: >-
-    # Phrase d'accroche service
+    # Service Industriel sur Mesure à Activence
+
 
     &nbsp;
-    
 
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto sint et laboriosam voluptatem quam beatae
-    suscipit exercitationem pariatur similique maxime eaque corporis,lorem ipsum dolor sit, amet consectetur
-    adipisicing elit. Architecto sint et laboriosam voluptatem quam beatae suscipit exercitationem pariatur
-    similique maxime eaque corporis, lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto sint et
-    laboriosam voluptatem quam beatae suscipit exercitationem pariatur similique maxime eaque corporis  
+
+    En plein développement, notre activité de sous-traitance industrielle emploie 20 salariés sur des missions de logistique, stockage, montage de colis, préparation de commande, emballage dans la ZA Activence.
 ---
