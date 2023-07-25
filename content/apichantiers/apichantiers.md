@@ -20,7 +20,7 @@ servicesSection:
     - Réhabilitation de bâtiments historiques
     - Second œuvre
     - Entretien des espaces verts
-    - Multiservices
+    - Services
 realisationsSection:
   text: NOS RÉALISATIONS
   title: Entretien, multiservices, réhabilitation
