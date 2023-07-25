@@ -6,8 +6,8 @@ text: |-
   * **Sous traitance industrielle**  
 page: API Entreprises
 servicesingle:
-  cover: assets/img/1 Intro-min copie 3.webp
-  image: assets/img/3 Pourquoi nous choisir-min.webp
+  cover: /assets/img/5 Pourquoi nous choisir-min.webp
+  image: /assets/img/logistique.jpg
   title: Sous-traitance logistique
   text: >-
     ## Confection Textile et Expertise Industrielle
