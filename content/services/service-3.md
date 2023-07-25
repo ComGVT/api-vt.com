@@ -12,10 +12,11 @@ servicesingle:
   image: assets/img/1 Intro-min.webp
   title: Sous-traitance logistique
   text: >-
-    # Phrase d'accroche service
+    # Exigence Environnementale
+
 
     &nbsp;
 
 
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto sint et laboriosam voluptatem quam beatae suscipit exercitationem pariatur similique maxime eaque corporis,lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto sint et laboriosam voluptatem quam beatae suscipit exercitationem pariatur similique maxime eaque corporis, lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto sint et laboriosam voluptatem quam beatae suscipit exercitationem pariatur similique maxime eaque corporis
+    Spécialisés dans les services environnementaux, nous couvrons l'ensemble du processus : collecte, tri, dépollution et démantèlement. Notre approche systématique garantit une gestion respectueuse et efficace de tous les déchets, dans le but ultime de préserver notre planète.
 ---
