@@ -26,7 +26,6 @@ realisationsSection:
   title: Entretien, multiservices, réhabilitation
   realisations:
     - Entretien des espaces verts
-    - Multiservices
     - "Second œuvre : Peinture-Isolation"
     - Réhabilitation de bâtiments historiques
 listAndMedia:
