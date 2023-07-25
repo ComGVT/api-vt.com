@@ -3,7 +3,7 @@ title: API Formation
 color: "#F9A22C"
 iconepage: /assets/img/API Formation blanc.png
 cover:
-  image: /assets/img/1 Intro-min copie 3.webp
+  image: /assets/img/intro-formation.jpg
   title: API Formation
   text: >-
     # D﻿es formations pour révéler ses talents
@@ -26,7 +26,7 @@ testimonialsSection:
     - Fanta
     - Jérémy
 listAndMedia:
-  image: /assets/img/5 Pourquoi nous choisir-min copie.webp
+  image: /assets/img/contact-03.jpg
   title: ""
   text: |-
     # pourquoi nous choisir ?
@@ -47,7 +47,7 @@ contact:
     à vos attentes en matière de recrutement
 
     Notre service « Exploitation » est à votre écoute pour répondre à vos besoins en matière de sous-traitance, d’entretien, de rénovation ou de projets de développement.
-  img: /assets/img/contact.webp
+  img: /assets/img/contact-01.jpg
 seo:
   seoTitle: API Formation
   seoDescription: Description API Formation
