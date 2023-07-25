@@ -23,5 +23,5 @@ servicesingle:
     &nbsp;
 
 
-    En plein développement, notre activité de sous-traitance industrielle emploie 20 salariés sur des missions de logistique, stockage, montage de colis, préparation de commande, emballage dans la ZA Activence.
+    Notre activité de sous-traitance industrielle vous accompagne sur des missions de logistique, stockage, montage de colis, préparation de commande, emballage dans la ZA Activence.
 ---
