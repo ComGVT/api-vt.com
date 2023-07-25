@@ -1,9 +1,8 @@
 ---
 title: Montage de chapiteaux
 image: /assets/img/ser.webp
-text: >-
+text: |-
   * **Constructions modulaires**
-  
   * **Montage de chapiteaux**  
 page: API Entreprises
 servicesingle:
@@ -11,14 +10,11 @@ servicesingle:
   image: /assets/img/img-reason.webp
   title: Sous-traitance logistique
   text: >-
-    # Phrase d'accroche service
+    # Châpiteaux et espace modulaire
+
 
     &nbsp;
-    
 
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto sint et laboriosam voluptatem quam beatae
-    suscipit exercitationem pariatur similique maxime eaque corporis,lorem ipsum dolor sit, amet consectetur
-    adipisicing elit. Architecto sint et laboriosam voluptatem quam beatae suscipit exercitationem pariatur
-    similique maxime eaque corporis, lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto sint et
-    laboriosam voluptatem quam beatae suscipit exercitationem pariatur similique maxime eaque corporis
+
+    Expertise en constructions modulaires et montage de chapiteaux, nous proposons des solutions flexibles et personnalisées pour répondre à tous vos besoins d'espace temporaire. Notre expérience garantit une mise en place rapide et sécurisée, pour des structures fiables et robustes.
 ---
