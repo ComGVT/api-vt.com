@@ -12,7 +12,7 @@ footer:
   logos:
     - /assets/img/iso-veritas-150.png
     - /assets/img/qualiopi-150.png
-    - /assets/img/embleme-ue_base_mentions_cofinance-noir_200px.png
+    - /assets/img/emblème-ue_base_contour-blanc_cofinancé-blanc.png
 contact:
   mail: contact.api@groupevitaminet.com
   tel: 03 24 33 48 97
