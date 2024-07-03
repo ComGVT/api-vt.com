@@ -1,6 +1,6 @@
 ---
 title: Mentions légales
-text: >-
+text: >
   <h1>En vigueur au 11 mai 2023</h1>
 
 
@@ -92,9 +92,10 @@ text: >-
       <li>Écart de rémunération entre les femmes et les hommes : malheureusement, cet indicateur n’est toujours pas calculable, car l’ensemble des groupes valables (c’est-à-dire comptant au moins 3 femmes et 3 hommes) représentent moins de 40% des effectifs.</li><br>
       <li>Ecart de taux d’augmentations entre les femmes et les hommes : pour l’index 2024, le taux d’augmentations individuelles en 2023 est de 37,5% pour les femmes et 26,5% pour les hommes – ce qui représente un écart favorable aux femmes de 11% et qui nous permet d’obtenir une note de 35/35 pour cet indicateur.</li><br>
       <li>Pourcentage de salariées augmentées dans l’année suivant leur retour de congé maternité : malheureusement, cet indicateur n’est toujours pas calculable car il n'y a pas eu de retour de congé maternité sur la période de référence.</li><br>
+  <li>Nombre de salariés du sexe sous-représenté parmi les 10 plus hautes rémunérations : pour l’index 2024, le résultat final est 2 (les hommes sont sur-représentés) ; la note obtenue est 5/10. 
+
+  </li><br>
+
+
   </ul><br>
-
-  <p>Nombre de salariés du sexe sous-représenté parmi les 10 plus hautes rémunérations : pour l’index 2024, le résultat final est 2 (les hommes sont sur-représentés) ; la note obtenue est 5/10. 
-
-  </p><br>
 ---
