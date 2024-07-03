@@ -55,13 +55,11 @@ listAndMedia:
       * De nous adapter à vos exigences en matière de recrutement ou d’activité
     * ### **Nous disposons de procédures rigoureuses et d’outils innovants avec** 
 
-      * Un service Hygiène sécurité Environnement
+      * Un service Hygiène, sécurité  et Environnement
       * Une structure doublement certifiée ISO 9001 et Qualiopi
-      * Des services d’hygiène de vie, de diététique ou d’apprentissage du Français
+      * Des services d’hygiène de vie, de diététique ou d’apprentissage du français
       * Une capacité de développement et d’innovation de nouveaux produits et services
-
-
-
+      *
     * ### **Index égalité Femmes/Hommes 2024**
 
       Notre entreprise s’engage en faveur de l’égalité professionnelle entre les femmes et les hommes. Malheureusement, comme pour les années précédentes, dans la mesure où les indicateurs calculables représentent moins de 75 points, notre index de l'égalité professionnelle entre les femmes et les hommes pour l’année 2024 (au titre des données 2023) n’est pas calculable. Cet index est calculé à partir des indicateurs suivants, parmi lesquels certains sont néanmoins calculables pour API CHANTIERS : 
