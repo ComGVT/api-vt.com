@@ -64,14 +64,6 @@ listAndMedia:
 
     * ### **Index égalité Femmes/Hommes 2024**
 
-
-    Notre entreprise s’engage en faveur de l’égalité professionnelle entre les femmes et les hommes. Malheureusement, comme pour les années précédentes, dans la mesure où les indicateurs calculables représentent moins de 75 points, notre index de l'égalité professionnelle entre les femmes et les hommes pour l’année 2024 (au titre des données 2023) n’est pas calculable. Cet index est calculé à partir des indicateurs suivants, parmi lesquels certains sont néanmoins calculables pour API CHANTIERS :
-
-
-
-
-    * ### **Index égalité Femmes/Hommes 2024**
-
       Notre entreprise s’engage en faveur de l’égalité professionnelle entre les femmes et les hommes. Malheureusement, comme pour les années précédentes, dans la mesure où les indicateurs calculables représentent moins de 75 points, notre index de l'égalité professionnelle entre les femmes et les hommes pour l’année 2024 (au titre des données 2023) n’est pas calculable. Cet index est calculé à partir des indicateurs suivants, parmi lesquels certains sont néanmoins calculables pour API CHANTIERS :
 
       * **Écart de rémunération entre les femmes et les hommes** : malheureusement, cet indicateur n’est toujours pas calculable, car l’ensemble des groupes valables (c’est-à-dire comptant au moins 3 femmes et 3 hommes) représentent moins de 40% des effectifs.
