@@ -9,9 +9,7 @@ cover:
     # D﻿es formations pour révéler ses talents
 
 
-
-
-    API Formation offre un large panel de formations qualifiantes et pré-qualifiantes qui permettent de se former, de retrouver confiance et se préparer à un métier.
+    API Formation offre un large panel de formations qui permettent de se former, de retrouver confiance et se préparer à un métier.
 formationSection:
   text: Nos offres de formations
   title: "-"
