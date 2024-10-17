@@ -20,6 +20,6 @@ text: >-
 
   [Formation remise à niveau](https://groupevitaminet-my.sharepoint.com/:b:/p/franck_depoorter/EVHiKk85uAhInPsjJ-EQVNkBTnW09kmdr6fu_toD_bzjgg?e=M2cv0I)
 signup: ""
-catalogue: /assets/img/catalogue-de-formations-api-formation.pdf
+catalogue: /assets/img/fiche-pedagogiue.pdf
 catalog: ""
 ---
