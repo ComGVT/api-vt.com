@@ -94,14 +94,13 @@ text: >-
   <!--EndFragment--> </p><br>
 
 
+  <p>API ENTREPRISES s’engage en faveur de l’égalité professionnelle entre les femmes et les hommes. Notre index de l'égalité professionnelle 2025 (au titre des données 2024) s’élève à 94/100. Cet index est calculé à partir des indicateurs suivants :</p>
+
+
   <ul>
-      <li>*Ecart de rémunération entre les femmes et les hommes* : malheureusement, cet indicateur n’est toujours pas calculable car les effectifs valides représentent moins de 40 % des effectifs totaux.</li><br>
-      <li>  *Ecart de taux d’augmentations entre les femmes et les hommes* : pour l’index 2025, le taux d’augmentations individuelles en 2024 est de 41,2% pour les femmes et 16,5% pour les hommes – ce qui représente un écart favorable aux femmes de 24,7% ; la note obtenue pour cet indicateur est 25/35.</li><br>
-      <li>*Pourcentage de salariées augmentées dans l’année suivant leur retour de congé maternité* : malheureusement, la note obtenue pour cet indicateur est 0/15.</li><br>
-  <li> *Nombre de salariés du sexe sous-représenté parmi les 10 plus hautes rémunérations* : pour l’index 2025, les femmes sont sous-représentées ; la note obtenue est 5/10. 
-
-  </li><br>
-
-
+      <li><strong>Indicateur n°1 - Ecart de rémunération entre les femmes et les hommes</strong> : la note obtenue est 40/40.</li>
+      <li><strong>Indicateur n°2 - Ecart de taux d’augmentations entre les femmes et les hommes</strong> : un écart de taux d’augmentation de 1,8% est constaté en faveur des femmes ; la note obtenue est 35/35.</li>
+      <li><strong>Indicateur n°3 - Pourcentage de salariées augmentées dans l’année suivant leur retour de congé maternité</strong> : cet indicateur n’est pas calculable.</li>
+      <li><strong>Indicateur n°4 - Nombre de salariés du sexe sous-représenté parmi les 10 plus hautes rémunérations</strong> : les femmes sont sur-représentées ; la note obtenue est 5/10.</li>
   </ul><br>
 ---
