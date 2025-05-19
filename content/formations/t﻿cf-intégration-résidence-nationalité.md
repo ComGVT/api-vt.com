@@ -14,5 +14,5 @@ text: >-
 
   \-﻿------
 signup: assets/img/fiche-inscription-examen-tcf-irn-v1.pdf
-catalogue: /assets/img/tcf-1.pdf
+catalogue: /assets/img/API Formation blanc.png
 ---
