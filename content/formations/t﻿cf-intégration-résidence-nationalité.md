@@ -13,6 +13,6 @@ text: >-
 
 
   \-﻿------
-signup: https://api-vt.com/assets/img/fiche-inscription-examen-tcf-irn-v1.pdf
+signup: assets/img/fiche-inscription-examen-tcf-irn-v1.pdf
 catalogue: /assets/img/tcf-1.pdf
 ---
