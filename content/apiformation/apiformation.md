@@ -14,9 +14,9 @@ formationSection:
   text: Nos offres de formations
   title: "-"
   formation:
-    - TCF – Intégration, Résidence et Nationalité (IRN)
     - Formations
     - Tes Accompagnements
+    - TCF
 testimonialsSection:
   text: TÉMOIGNAGES
   title: Ils sont passés par nos formations
