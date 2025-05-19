@@ -10,5 +10,6 @@ text: >-
 
 
   \-﻿> ***[C﻿liquez-ici pour plus d’informations](https://api-vt.com/assets/img/affiche-tcf.pdf)***<-
+signup: static/assets/img/fiche-inscription-examen-tcf-irn-v1.pdf
 catalogue: /assets/img/affiche-tcf.pdf
 ---
