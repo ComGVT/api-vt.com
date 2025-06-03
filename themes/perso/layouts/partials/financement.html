@@ -1,23 +1,19 @@
 {{ $pageUrl := $.Scratch.Get "pageUrl" }}
-{{ with .Site.GetPage $pageUrl }}
-  {{ with .Params.financement }}
-    <section id="financement" class="financement-section">
-      <div class="financement-wrapper">
-        <!-- Titre principal -->
-        <h2 class="financement-title">{{ .title }}</h2>
-
-        <!-- Conteneur des cards -->
-        <div class="financement-cards">
-          {{ range .operations }}
-            <div class="financement-card">
-              <h3 class="financement-card-title">{{ .title }}</h3>
-              <div class="financement-card-desc">
-                {{ .description | markdownify }}
-              </div>
+{{ with .Params.financement }}
+  <section id="financement" class="financement-section">
+    <div class="financement-wrapper">
+      <h2 class="financement-title">{{ .title }}</h2>
+      <div class="financement-cards">
+        {{ range .operations }}
+          <div class="financement-card">
+            <h3 class="financement-card-title">{{ .title }}</h3>
+            <div class="financement-card-desc">
+              {{ .description | markdownify }}
             </div>
-          {{ end }}
-        </div>
+          </div>
+        {{ end }}
       </div>
-    </section>
-  {{ end }}
+    </div>
+  </section>
 {{ end }}
+

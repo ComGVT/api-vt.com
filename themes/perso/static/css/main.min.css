@@ -2431,3 +2431,104 @@ a {
     justify-content: center;
   }
 }
+/* ============================================
+   SECTION FINANCEMENT : FOND GRIS, CARTES BLANCHES
+   ============================================ */
+
+/* 1. La <section> elle-même prend 100% de la largeur :
+      on l’étend de full-start à full-end de la grille. */
+.financement-section {
+  grid-column: full-start / full-end; /* occupe toute la largeur */
+  background-color: #F0F0F0;          /* gris clair sur toute la largeur */
+  padding: 4rem 0;                    /* 4rem de marge haut/bas, rien côté */
+  box-sizing: border-box;
+}
+
+/* 2. Le wrapper interne est centré dans les colonnes “center” :
+      width fixe, centré horizontalement. */
+.financement-wrapper {
+  grid-column: center-start / center-end; /* ne prend que la zone “centre” */
+  width: 100%;
+  max-width: 72rem;         /* ≃ 1152px de largeur max */
+  margin: 0 auto;           /* centre horizontalement */
+  padding: 0 1rem;          /* 1rem de coussin à gauche et à droite */
+  box-sizing: border-box;
+}
+
+/* 3. Titre principal au centre du wrapper */
+.financement-title {
+  font-size: 2.5rem;    /* ≃ 40px */
+  font-weight: 700;     /* gras */
+  color: #1F2937;       /* gris très foncé */
+  text-align: center;   /* centré */
+  margin-bottom: 3rem;  /* ≃ 48px en dessous */
+}
+
+/* 4. Grille des cartes (3 colonnes) centrée dans le wrapper */
+.financement-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colonnes égales */
+  gap: 2rem;                             /* ≃ 32px d’espace inter-cartes */
+  margin: 0 auto;                       /* centre la grille si plus étendue */
+  max-width: 68rem;                     /* ≃ 1088px pour limiter la largeur */
+  box-sizing: border-box;
+}
+
+/* 5. Adaptation Responsive : 2 colonnes ≤1024px, 1 colonne ≤640px */
+@media screen and (max-width: 1024px) {
+  .financement-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 640px) {
+  .financement-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 6. Style de chaque carte (fond blanc, ombre, coins arrondis) */
+.financement-card {
+  background-color: #ffffff;               /* fond blanc */
+  border: 1px solid #E2E8F0;              /* bordure gris clair */
+  border-radius: 0.5rem;                  /* coins arrondis ≃ 8px */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* ombre légère */
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;                        /* ≃ 24px d’espace interne */
+  box-sizing: border-box;
+  min-height: 180px;                      /* hauteur minimale, optionnel */
+}
+
+/* 7. Titre à l’intérieur de la carte (centré, semi-gras) */
+.financement-card-title {
+  font-size: 1.5rem;     /* ≃ 24px */
+  font-weight: 600;      /* semi-gras */
+  color: #111827;        /* gris foncé */
+  text-align: center;    /* centré */
+  margin-bottom: 1rem;   /* ≃ 16px sous le titre */
+}
+
+/* 8. Texte / description dans la carte (interligne confortable) */
+.financement-card-desc {
+  flex: 1;               /* occupe l’espace vertical restant */
+  font-size: 1rem;       /* ≃ 16px */
+  line-height: 1.6;      /* interligne */
+  color: #4B5563;        /* gris moyen pour le texte */
+}
+
+/* 9. Optionnel : petit trait accent sous le titre dans la carte */
+.financement-card-title::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #F9A22C;  /* accent orange */
+  margin: 0.5rem auto 0;      /* centré et légèrement sous le titre */
+}
+
+/* 10. Ajustement pour mobile : réduire le padding vertical de la section */
+@media screen and (max-width: 640px) {
+  .financement-section {
+    padding: 2rem 0;  /* moins d’espace sur petits écrans */
+  }
+}
