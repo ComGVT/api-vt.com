@@ -6,8 +6,7 @@ cover:
   image: /assets/img/intro-formation.jpg
   title: API Formation
   text: >-
-    # D﻿es formations pour révéler ses talents
-
+    # Des formations pour révéler ses talents
 
     API Formation offre un large panel de formations qui permettent de se former, de retrouver confiance et se préparer à un métier.
 formationSection:
@@ -16,7 +15,7 @@ formationSection:
   formation:
     - Formations
     - Tes Accompagnements
-    - T﻿CF - Intégration, Résidence & Nationalité
+    - TCF - Intégration, Résidence & Nationalité
 testimonialsSection:
   text: TÉMOIGNAGES
   title: Ils sont passés par nos formations
