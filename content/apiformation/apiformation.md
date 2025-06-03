@@ -35,6 +35,9 @@ listAndMedia:
     * ### Objectifs ciblés
     * ### Développement de compétences clés
     * ### Encadrement par des professionnels qualifiés
+financement:
+  title: test
+  text: t﻿est texte
 contact:
   catTitle: contact
   button: contactez-nous
