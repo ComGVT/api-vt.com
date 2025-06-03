@@ -35,8 +35,26 @@ listAndMedia:
     * ### Développement de compétences clés
     * ### Encadrement par des professionnels qualifiés
 financement:
-  title: test
-  text: t﻿est textehhghgg
+  title: API FORMATION
+  operations:
+    - title: "Opération n°2024022435"
+      description: >-
+        S’inscrit dans le cadre du Programme national FSE+ Emploi - Inclusion - Jeunesse – Compétences  
+        au titre de la priorité 1 : Favoriser l’inclusion active afin de promouvoir l’égalité des chances,  
+        la non-discrimination et la participation active, et améliorer l’employabilité, en particulier  
+        pour les groupes défavorisés.
+    - title: "Opération n°202404308"
+      description: >-
+        S’inscrit dans le cadre du Programme national FSE+ Emploi - Inclusion - Jeunesse – Compétences  
+        au titre de la priorité 1 : Promouvoir l’intégration sociale des personnes exposées  
+        au risque de pauvreté ou d’exclusion sociale, y compris les personnes  
+        les plus démunies et les enfants.
+    - title: "Opération n°202500353"
+      description: >-
+        S’inscrit dans le cadre du Programme national FSE+ Emploi - Inclusion - Jeunesse – Compétences  
+        au titre de la priorité 1 : Promouvoir l’intégration sociale des personnes exposées  
+        au risque de pauvreté ou d’exclusion sociale, y compris les personnes  
+        les plus démunies et les enfants.
 contact:
   catTitle: contact
   button: contactez-nous
