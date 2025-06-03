@@ -2432,3 +2432,84 @@ a {
   }
 }
 
+/* =============================
+   Section Financement
+   ============================= */
+
+/* 1. Fond de la section et gros padding */
+.financement-section {
+  background-color: #F9FAFB; /* gris très clair */
+  padding: 4rem 1rem;        /* 4rem en haut/bas, 1rem sur les côtés */
+}
+
+/* 2. Wrapper centré dans la grille parent et largeur max */
+.financement-wrapper {
+  width: 100%;
+  max-width: 72rem;   /* environ 1152px */
+  margin: 0 auto;     /* centre le bloc horizontalement */
+  padding: 0 1rem;    /* 1rem de marge intérieure à gauche et à droite */
+
+  /* Contraint cette zone entre center-start et center-end de la grille globale */
+  grid-column: center-start / center-end;
+}
+
+/* 3. Titre principal : centré, taille agrandie, espace sous le titre */
+.financement-title {
+  font-size: 2.5rem;    /* environ 40px */
+  font-weight: 700;     /* gras */
+  color: #1F2937;       /* gris très foncé */
+  text-align: center;   /* centre le texte */
+  margin-bottom: 3rem;  /* espace sous le titre (~48px) */
+}
+
+/* 4. Conteneur des cards : 3 colonnes, centrée dans son parent */
+.financement-cards {
+  display: grid;
+  /* Trois colonnes égales tant que la largeur le permet */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;            /* espace de ~32px entre chaque card */
+  max-width: 68rem;     /* ~1088px pour limiter la largeur totale */
+  margin: 0 auto;       /* centre la grille à l’intérieur du wrapper */
+  align-items: start;
+}
+
+/* 5. Responsiveness : 2 colonnes sur tablette (≤1024px), 1 colonne sur mobile (≤640px) */
+@media screen and (max-width: 1024px) {
+  .financement-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 640px) {
+  .financement-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 6. Style de chaque “card” :
+      fond blanc, bordure, ombre, padding, flex-colonne */
+.financement-card {
+  background-color: #ffffff;
+  border: 1px solid #E5E7EB;  /* gris clair */
+  border-radius: 0.5rem;      /* coins arrondis (~8px) */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;            /* ~24px de padding intérieur */
+  display: flex;
+  flex-direction: column;
+}
+
+/* 7. Titre de la card : centré et légèrement agrandi */
+.financement-card-title {
+  font-size: 1.5rem;    /* ~24px */
+  font-weight: 600;     /* semi-gras */
+  color: #111827;       /* gris très foncé */
+  text-align: center;   /* centré dans la carte */
+  margin-bottom: 1rem;  /* ~16px sous le titre */
+}
+
+/* 8. Description dans la card : interligne et couleur gris moyen */
+.financement-card-desc {
+  flex: 1;             /* occupe tout l’espace vertical restant */
+  font-size: 1rem;     /* ~16px */
+  line-height: 1.6;    /* interligne confortable */
+  color: #4B5563;      /* gris moyen */
+}
