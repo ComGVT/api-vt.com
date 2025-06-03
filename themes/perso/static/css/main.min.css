@@ -2432,56 +2432,49 @@ a {
   }
 }
 
+/* ===========================================================================
+   SECTION FINANCEMENT : CSS COMPLET
+   =========================================================================== */
 
-/* -----------------------------------------------------------------------
-   1. Section Financement : fond gris clair et padding
-   ----------------------------------------------------------------------- */
+/* 1. Zone “Financement” : fond gris clair et padding vertical */
 .financement-section {
-  background-color: #F9FAFB; /* gris très clair */
-  padding: 4rem 1rem;        /* 4rem en haut/bas, 1rem sur les côtés */
+  background-color: #F9FAFB;  /* gris très clair */
+  padding: 4rem 1rem;         /* 4rem en haut/bas, 1rem sur les côtés */
 }
 
-/* -----------------------------------------------------------------------
-   2. Wrapper centré et largeur max (pour tout le contenu Financement)
-   ----------------------------------------------------------------------- */
+/* 2. Wrapper centré dans la grille parent et largeur max */
 .financement-wrapper {
-  /* On ne met QUE du padding horizontal pour que le contenu n'aille
-     jamais jusqu'au bord de l'écran, mais on garde width:100% pour centrer */
   width: 100%;
-  max-width: 72rem;   /* environ 1152px */
-  margin: 0 auto;     /* centre le bloc horizontalement dans la page */
-  padding: 0 1rem;    /* 1rem de marge intérieure à gauche et à droite */
+  max-width: 72rem;          /* environ 1152px */
+  margin: 0 auto;            /* centre horizontalement dans .wrapper */
+  padding: 0 1rem;           /* empêche le contenu de toucher les bords */
+
+  /* Contraint .financement-wrapper entre center-start et center-end de la grille globale */
+  grid-column: center-start / center-end;
 }
 
-/* -----------------------------------------------------------------------
-   3. Titre principal : centré, taille agrandie, espace sous le titre
-   ----------------------------------------------------------------------- */
+/* 3. Titre principal : centré, taille agrandie, marge sous le titre */
 .financement-title {
-  font-size: 2.5rem;       /* environ 40px */
-  font-weight: 700;        /* gras */
-  color: #1F2937;          /* gris très foncé */
-  text-align: center;      /* centre le texte */
-  margin-bottom: 3rem;     /* espace sous le titre (≈48px) */
+  font-size: 2.5rem;         /* ≈ 40px */
+  font-weight: 700;          /* gras */
+  color: #1F2937;            /* gris très foncé */
+  text-align: center;        /* centré */
+  margin-bottom: 3rem;       /* ≈ 48px d’espace sous le titre */
 }
 
-/* -----------------------------------------------------------------------
-   4. Conteneur des cards
-      - On fixe une max-width pour la grille, puis on centre la grille elle-même
-   ----------------------------------------------------------------------- */
+/* 4. Grille des cards : 3 colonnes, centrée à l’intérieur de .financement-wrapper */
 .financement-cards {
   display: grid;
-  /* Trois colonnes égales tant que la largeur du contenant le permet */
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;       /* espace de 2rem (≈32px) entre chaque card */
-  /* Pour centrer la grille si la page est plus large que max-width */
-  max-width: 68rem; /* ajustez cette valeur pour que la grille ne soit pas trop large */
-  margin: 0 auto;   /* centre la grille à l’intérieur de .financement-wrapper */
+  grid-template-columns: repeat(3, 1fr);  /* 3 colonnes égales tant que la largeur le permet */
+  gap: 2rem;                              /* ≈32px d’espacement entre chaque card */
+  max-width: 68rem;                       /* ≈1088px : limite la largeur totale de la grille */
+  margin: 0 auto;                         /* centre la grille dans .financement-wrapper */
   align-items: start;
 }
 
-/* -----------------------------------------------------------------------
-   5. Responsiveness : 2 colonnes sur tablette, 1 colonne sur mobile
-   ----------------------------------------------------------------------- */
+/* 5. Répartition responsive :
+      - ≤ 1024px : 2 colonnes
+      - ≤ 640px  : 1 colonne */
 @media screen and (max-width: 1024px) {
   .financement-cards {
     grid-template-columns: repeat(2, 1fr);
@@ -2493,33 +2486,27 @@ a {
   }
 }
 
-/* -----------------------------------------------------------------------
-   6. Style de chaque “card”
-   ----------------------------------------------------------------------- */
+/* 6. Style de chaque “card” : fond blanc, bordure, ombre, padding, flex-column */
 .financement-card {
   background-color: #ffffff;
   border: 1px solid #E5E7EB;      /* gris clair */
   border-radius: 0.5rem;          /* coins arrondis (≈8px) */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-  padding: 1.5rem;                /* padding intérieur (≈24px) */
+  padding: 1.5rem;                /* ≈24px de padding intérieur */
   display: flex;
   flex-direction: column;
 }
 
-/* -----------------------------------------------------------------------
-   7. Titre de la card : centré, taille augmentée
-   ----------------------------------------------------------------------- */
+/* 7. Titre de la card : centré et légèrement agrandi */
 .financement-card-title {
   font-size: 1.5rem;     /* ≈24px */
   font-weight: 600;      /* semi-gras */
   color: #111827;        /* gris très foncé */
   text-align: center;    /* centré */
-  margin-bottom: 1rem;   /* espace sous le titre (≈16px) */
+  margin-bottom: 1rem;   /* ≈16px d’espace sous le titre */
 }
 
-/* -----------------------------------------------------------------------
-   8. Description dans la card : interligne, couleur gris moyen
-   ----------------------------------------------------------------------- */
+/* 8. Description dans la card : interligne aéré, couleur gris moyen */
 .financement-card-desc {
   flex: 1;               /* occupe tout l’espace vertical restant si besoin */
   font-size: 1rem;       /* ≈16px */
