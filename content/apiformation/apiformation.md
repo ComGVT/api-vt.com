@@ -26,7 +26,7 @@ listAndMedia:
   image: /assets/img/contact-03.jpg
   title: ""
   text: |-
-    # pourquoi nous choisir ?
+    # Pourquoi nous choisir ?
 
     &nbsp;
 
