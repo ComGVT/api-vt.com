@@ -35,7 +35,7 @@ listAndMedia:
     * ### Développement de compétences clés
     * ### Encadrement par des professionnels qualifiés
 financement:
-  title: API FORMATION
+  title: API FORMATION est financé par le programme national FSE+ dans le cadre des opérations suivantes :
   operations:
     - title: "Opération n°2024022435"
       description: >-
