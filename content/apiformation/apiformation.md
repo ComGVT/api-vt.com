@@ -36,7 +36,7 @@ listAndMedia:
     * ### Encadrement par des professionnels qualifiés
 financement:
   title: test
-  text: t﻿est texte
+  text: t﻿est textehhghgg
 contact:
   catTitle: contact
   button: contactez-nous
