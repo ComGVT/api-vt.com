@@ -1,0 +1,8 @@
+{{ with .Params.financement }}
+<section id="financement">
+  <h2>{{ .title }}</h2>
+  <div class="content-financement">
+    {{ .text | markdownify }}
+  </div>
+</section>
+{{ end }}
