@@ -17,7 +17,6 @@ servicesSection:
   title: Pour vous accompagner dans vos projets
   services:
     - Confection Textile
-    - Montage de chapiteaux
     - Recyclage
     - Sous-traitance industrielle
     - Sous-traitance logistique
