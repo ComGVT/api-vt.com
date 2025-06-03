@@ -2433,40 +2433,87 @@ a {
 }
 
 
-/* 1. Centre le contenu et limite la largeur */
-.financement-section .wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem 1rem; /* Ajustez selon vos besoins */
+/* ---------------------------------------------------------------------
+   1. Zone “Financement” : fond gris clair et padding
+   --------------------------------------------------------------------- */
+.financement-section {
+  background-color: #F9FAFB; /* gris très clair pour distinguer la section */
+  padding: 4rem 1rem;        /* 4rem en haut et en bas, 1rem sur les côtés */
 }
 
-/* 2. Grille responsive à 3 colonnes */
+/* ---------------------------------------------------------------------
+   2. Wrapper centré et largeur max
+   --------------------------------------------------------------------- */
+.financement-wrapper {
+  max-width: 72rem;  /* env. 1152px */
+  margin: 0 auto;    /* centrer horizontalement */
+}
+
+/* ---------------------------------------------------------------------
+   3. Titre principal : centré, gros et espacé du reste
+   --------------------------------------------------------------------- */
+.financement-title {
+  font-size: 2.5rem;       /* environ 40px */
+  font-weight: 700;        /* gras */
+  color: #1F2937;          /* gris très foncé */
+  text-align: center;      /* centré */
+  margin-bottom: 3rem;     /* 3rem (48px) d’espace sous le titre */
+}
+
+/* ---------------------------------------------------------------------
+   4. Grille à 3 colonnes pour les cards (responsive)
+   --------------------------------------------------------------------- */
 .financement-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;        /* 2rem (32px) entre chaque card */
+  align-items: start;
 }
 
-/* 3. Style de chaque “card” */
+/* Version tablette : 2 colonnes à partir de 1024px */
+@media screen and (max-width: 1024px) {
+  .financement-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Version mobile : 1 colonne à partir de 640px */
+@media screen and (max-width: 640px) {
+  .financement-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------------------------------------------------------------------
+   5. Chaque card : style épuré avec bordure, ombre, padding
+   --------------------------------------------------------------------- */
 .financement-card {
-  background-color: #fff;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  padding: 1.5rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  border: 1px solid #E5E7EB;      /* gris clair */
+  border-radius: 0.5rem;          /* 8px de coins arrondis */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;                /* 1.5rem (24px) de padding intérieur */
+  display: flex;
+  flex-direction: column;
 }
 
-/* 4. Titre de la card */
-.financement-card .card-title {
-  font-size: 1.25rem;
-  margin-bottom: 0.75rem;
-  color: #333;
+/* ---------------------------------------------------------------------
+   6. Titre de la card : centré, taille augmentée, margin bottom
+   --------------------------------------------------------------------- */
+.financement-card-title {
+  font-size: 1.5rem;     /* environ 24px */
+  font-weight: 600;      /* semi-bold */
+  color: #111827;        /* gris très foncé */
+  text-align: center;    /* centré dans la card */
+  margin-bottom: 1rem;   /* 1rem (16px) sous le titre */
 }
 
-/* 5. Description dans la card */
-.financement-card .card-description {
-  font-size: 1rem;
-  line-height: 1.5;
-  color: #555;
+/* ---------------------------------------------------------------------
+   7. Description de la card : couleur gris moyen, line-height, flex
+   --------------------------------------------------------------------- */
+.financement-card-desc {
+  flex: 1;               /* prend tout l’espace restant (pour aligner hausses) */
+  font-size: 1rem;       /* 16px */
+  line-height: 1.6;      /* interligne confortable */
+  color: #4B5563;        /* gris moyen pour le texte */
 }

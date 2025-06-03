@@ -1,17 +1,18 @@
+{{/* layouts/partials/financement.html */}}
 {{ $pageUrl := $.Scratch.Get "pageUrl" }}
 {{ with .Site.GetPage $pageUrl }}
   {{ with .Params.financement }}
     <section id="financement" class="financement-section">
-      <div class="wrapper">
-        <!-- Titre global de la section -->
+      <div class="financement-wrapper">
+        <!-- Titre principal, centré et agrandi -->
         <h2 class="financement-title">{{ .title }}</h2>
 
         <!-- Conteneur des cards -->
         <div class="financement-cards">
           {{ range .operations }}
             <div class="financement-card">
-              <h3 class="card-title">{{ .title }}</h3>
-              <div class="card-description">
+              <h3 class="financement-card-title">{{ .title }}</h3>
+              <div class="financement-card-desc">
                 {{ .description | markdownify }}
               </div>
             </div>
