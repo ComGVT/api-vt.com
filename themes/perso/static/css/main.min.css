@@ -2457,7 +2457,7 @@ a {
 
 /* 3. Titre principal au centre du wrapper */
 .financement-title {
-  font-size: 2.5rem;    /* ≃ 40px */
+  font-size: 2rem;   
   font-weight: 700;     /* gras */
   color: #1F2937;       /* gris très foncé */
   text-align: center;   /* centré */
