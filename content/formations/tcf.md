@@ -1,5 +1,5 @@
 ---
-title: T﻿CF - Intégration, Résidence & Nationalité
+title: T﻿CF - Intégration, Résidence et Nationalité
 image: /assets/img/tcf-logo.jpg
 text: >-
   **API FORMATION** est centre agréé pour le Test de Connaissance du Français-
