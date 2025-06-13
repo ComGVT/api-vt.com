@@ -9,7 +9,7 @@ text: >-
   Le **TCF IRN** est destiné à toute personne étrangère de plus de 16 ans souhaitant valider son niveau de français.
 
 
-  \-﻿> ***C﻿liquez-ici pour plus d’informations***<-
+  \-﻿> ***[C﻿liquez-ici pour plus d’informations](static/assets/img/tcf-1.pdf)***<-
 signup: static/assets/img/affiche-tcf.pdf
 catalogue: /assets/img/affiche-tcf.pdf
 ---
