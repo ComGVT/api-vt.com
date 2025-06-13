@@ -10,6 +10,6 @@ text: >-
 
 
   \-﻿> ***C﻿liquez-ici pour plus d’informations***<-
-signup: static/assets/img/fiche-inscription-examen-tcf-irn-v1.pdf
+signup: static/assets/img/affiche-tcf.pdf
 catalogue: /assets/img/affiche-tcf.pdf
 ---
