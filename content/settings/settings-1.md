@@ -13,6 +13,8 @@ footer:
     <!--EndFragment-->
 
 
+
+
     Située en plein cœur des Ardennes mais aussi dans l’Aisne, API, filiale du Groupe VITAMINE T, acteur majeur de l’inclusion en France, est spécialisée dans les métiers de la réhabilitation de sites historiques, de la sous-traitance industrielle, de l’environnement et de la formation.</br>
 
 
