@@ -7,7 +7,7 @@ footer:
     <!--StartFragment-->
 
 
-    "**L’Union européenne cofinance les actions d’accompagnement socio-professionnel d’API Chantiers par le biais du Fonds Social Européen+**
+    "**L’Union européenne cofinance les actions d’accompagnement socio-professionnel d’API Chantiers par le biais du Fonds Social Européen+.**
 
 
     <!--EndFragment-->
