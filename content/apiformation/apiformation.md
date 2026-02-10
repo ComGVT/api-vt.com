@@ -16,6 +16,7 @@ formationSection:
     - Formations
     - Tes Accompagnements
     - T﻿CF - Intégration, Résidence et Nationalité
+    - Examen civique
 testimonialsSection:
   text: TÉMOIGNAGES
   title: Ils sont passés par nos formations
