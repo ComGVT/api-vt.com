@@ -60,7 +60,7 @@ financement:
     - title: "Accompagnement social 2026 : parcours intégré sans plateau —
         Opération n°202601385"
       description: "S’inscrit dans le cadre du Programme national FTJ Emploi
-        – Compétences, au titre de la priorité 1 - 1-FTJ-U-FTJ : Permettre
+        Compétences, au titre de la priorité 1 - 1-FTJ-U-FTJ : Permettre
         aux régions et aux personnes de faire face aux conséquences sociales,
         économiques, environnementales et en matière d’emploi de la
         transition vers les objectifs spécifiques de l’Union Européenne.
@@ -70,7 +70,8 @@ financement:
         total : 96 500€ — Financement UE : 61 099,50€."
     - title: "Accompagnement global 2026 — Opération n°202602002"
       description: "S’inscrit dans le cadre du Programme national FSE+ Emploi -
-        Inclusion - Jeunesse – Compétences   au titre de la priorité 1 - 1.h :
+        Inclusion - Jeunesse
+        Compétences   au titre de la priorité 1 - 1.h :
         Favoriser l’inclusion active afin de promouvoir l’égalité des chances,
         la non-discrimination et la participation active, et améliorer
         l’employabilité, en particulier pour les groupes défavorisés.
