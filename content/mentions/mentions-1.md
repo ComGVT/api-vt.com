@@ -73,6 +73,8 @@ text: >-
   <h2>ARTICLE 6 - INFORMATIONS ET EXCLUSIONS</h2>
 
 
+  \
+
   <p>L’éditeur de ce site met en œuvre tous les moyens dont il dispose pour assurer une information fiable et une mise à jour des contenus. Toutefois, des erreurs ou omissions peuvent survenir. L’internaute devra donc s’assurer de l’exactitude des informations auprès de l’éditeur et signaler toutes modifications du site qu’il jugerait utile. L’éditeur du site n’est en aucun cas responsable de l’utilisation faite de ces informations, et de tout préjudice direct ou indirect pouvant en découler.</p>
 
 
@@ -88,32 +90,40 @@ text: >-
   <p><!--StartFragment-->
 
 
-  API CHANTIERS s’engage en faveur de l’égalité professionnelle entre les femmes et les hommes. Malheureusement, comme pour les années précédentes, dans la mesure où les indicateurs calculables représentent moins de 75 points, notre index de l'égalité professionnelle entre les femmes et les hommes pour l’année 2025 (au titre des données 2024) n’est pas calculable. Cet index est calculé à partir des indicateurs suivants, parmi lesquels certains sont néanmoins calculables pour API CHANTIERS
+  <p>API ENTREPRISES s’engage en faveur de l’égalité professionnelle entre les femmes et les hommes. Notre index de l'égalité professionnelle 2026 (au titre des données 2025) s’élève à 100/100. Cet index est calculé à partir des indicateurs suivants :</p>
 
 
-  <ul> 
+  <ul>
+
+  <li><strong>Indicateur n°1 - Écart de rémunération entre les femmes et les hommes</strong> : il n’y a pas d’écart de rémunérations ; la note obtenue est 40/40.</li><br>
 
 
-  <li>Écart de rémunération entre les femmes et les hommes : malheureusement, cet indicateur n’est toujours pas calculable car les effectifs valides représentent moins de 40 % des effectifs totaux.</li><br>
+  <li><strong>Indicateur n°2 - Ecart de taux d’augmentations entre les femmes et les hommes</strong>  : un écart de taux d’augmentations individuelles de 0,1% est constaté en faveur des hommes ; la note obtenue est 35/35.</li><br>
 
 
-  <li> Écart de taux d’augmentations entre les femmes et les hommes\\* : pour l’index 2025, le taux d’augmentations individuelles en 2024 est de 41,2% pour les femmes et 16,5% pour les hommes – ce qui représente un écart favorable aux femmes de 24,7% ; la note obtenue pour cet indicateur est 25/35.</li><br>
+  <li><strong>Indicateur n°3 - Pourcentage de salariées augmentées dans l’année suivant leur retour de congé maternité</strong> : toutes les salariées de retour de congé maternité, durant lequel des augmentations sont intervenues, ont été augmentés ; la note obtenue est 15/15.</li><br>
 
-   <li>Pourcentage de salariées augmentées dans l’année suivant leur retour de congé maternité : malheureusement, la note obtenue pour cet indicateur est 0/15.</li><br> 
 
-  <li>Nombre de salariés du sexe sous-représenté parmi les 10 plus hautes rémunérations : pour l’index 2025, les femmes sont sous-représentées ; la note obtenue est 5/10.  </li><br> 
+  <li><strong>Indicateur n°4 - Nombre de salariés du sexe sous-représenté parmi les 10 plus hautes rémunérations</strong>  : les hommes et les femmes sont à parité parmi les salariés les mieux rémunérés ; la note obtenue est 10/10.</li><br>
 
 
   </ul>
 
 
-  <p>API ENTREPRISES s’engage en faveur de l’égalité professionnelle entre les femmes et les hommes. Notre index de l'égalité professionnelle 2025 (au titre des données 2024) s’élève à 94/100. Cet index est calculé à partir des indicateurs suivants :</p>
+  <p>API CHANTIERS s’engage également en faveur de l’égalité professionnelle entre les femmes et les hommes. Malheureusement, comme pour les années précédentes, dans la mesure où les indicateurs calculables représentent moins de 75 points, notre index de l'égalité professionnelle entre les femmes et les hommes pour l’année 2026 (au titre des données 2025) n’est pas calculable. Cet index est calculé à partir des indicateurs suivants, parmi lesquels certains sont néanmoins calculables pour API CHANTIERS :</p>
 
 
   <ul>
-      <li><strong>Indicateur n°1 - Ecart de rémunération entre les femmes et les hommes</strong> : la note obtenue est 40/40.</li>
-      <li><strong>Indicateur n°2 - Ecart de taux d’augmentations entre les femmes et les hommes</strong> : un écart de taux d’augmentation de 1,8% est constaté en faveur des femmes ; la note obtenue est 35/35.</li>
-      <li><strong>Indicateur n°3 - Pourcentage de salariées augmentées dans l’année suivant leur retour de congé maternité</strong> : cet indicateur n’est pas calculable.</li>
-      <li><strong>Indicateur n°4 - Nombre de salariés du sexe sous-représenté parmi les 10 plus hautes rémunérations</strong> : les femmes sont sur-représentées ; la note obtenue est 5/10.</li>
-  </ul><br>
+   <li><strong>Indicateur n°1 - Écart de rémunération entre les femmes et les hommes</strong> : malheureusement, cet indicateur n’est toujours pas calculable car les effectifs valides représentent moins de 40 % des effectifs totaux.</li><br>
+
+  <li><strong>Indicateur n°2 - Ecart de taux d’augmentations entre les femmes et les hommes</strong> : un écart favorable du taux d’augmentations individuelles de 22,7% est constaté en faveur des femmes ; la note obtenue pour cet indicateur est 25/35./li><br>
+
+
+  <li><strong>Indicateur n°3 - Pourcentage de salariées augmentées dans l’année suivant leur retour de congé maternité</strong> : cet indicateur n’est pas calculable.
+
+
+  <li><strong>Indicateur n°4 - Nombre de salariés du sexe sous-représenté parmi les 10 plus hautes rémunérations</strong> : les femmes sont sous-représentées (3 femmes) parmi les salariés les mieux rémunérés ; la note obtenue est 5/10. 
+
+
+  </ul>
 ---

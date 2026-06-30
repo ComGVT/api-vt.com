@@ -15,7 +15,8 @@ formationSection:
   formation:
     - Formations
     - Tes Accompagnements
-    - TCF - Intégration, Résidence & Nationalité
+    - TCF - Intégration, Résidence et Nationalité
+    - Examen civique
 testimonialsSection:
   text: TÉMOIGNAGES
   title: Ils sont passés par nos formations
@@ -35,7 +36,8 @@ listAndMedia:
     * ### Développement de compétences clés
     * ### Encadrement par des professionnels qualifiés
 financement:
-  title: API FORMATION est financé par le programme national FSE+ dans le cadre des opérations suivantes
+  title: API FORMATION est financé par le programme national FSE+ dans le cadre
+    des opérations suivantes
   operations:
     - title: "Opération n°2024022435"
       description: >-
