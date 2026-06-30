@@ -8,8 +8,8 @@ theme = "perso"
   realisations =  '/:section/:title/'
 
 pygmentsstyle = "vs"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+pygmentscodefences = "true"
+pygmentscodefencesguesssyntax = "true"
 
 googleAnalytics = "UA-123-45"
 
