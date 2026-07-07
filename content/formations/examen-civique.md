@@ -12,6 +12,9 @@ text: >-
 
 
   👉 **[Pré-inscription en ligne via France Education International](https://www.france-education-international.fr/examen-civique/examen-civique-informations-pour-les-candidats?langue=fr)**
+
+
+  ###### **[vidéo de lutte contre la fraude](https://www.youtube.com/watch?v=2zTzz9XdY8g)**
 signup: https://www.france-education-international.fr/examen-civique/examen-civique-informations-pour-les-candidats?langue=fr
 catalogue: /assets/img/catalogue-de-formations-api-formation.pdf
 ---
