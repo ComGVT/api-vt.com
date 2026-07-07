@@ -13,10 +13,10 @@ formationSection:
   text: Nos offres de formations
   title: "-"
   formation:
-    - Formations
-    - Tes Accompagnements
     - Examen civique
     - T﻿CF - Intégration, Résidence et Nationalité
+    - Formations
+    - Tes Accompagnements
 testimonialsSection:
   text: TÉMOIGNAGES
   title: Ils sont passés par nos formations
