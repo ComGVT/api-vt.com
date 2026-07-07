@@ -14,8 +14,8 @@ formationSection:
   title: "-"
   formation:
     - Examen civique
-    - T﻿CF - Intégration, Résidence et Nationalité
     - Formations
+    - T﻿CF - Intégration, Résidence et Nationalité
     - Tes Accompagnements
 testimonialsSection:
   text: TÉMOIGNAGES
