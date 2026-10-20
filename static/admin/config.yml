@@ -267,6 +267,19 @@ collections:
         - { label: Image, name: image, widget: image,required: false }
         - { label: Titre , name: title, widget: string,required: false }        
         - { label: Texte , name: text, widget: markdown,required: false }
+      - label: "Section financement"
+        name: "financement"
+        widget: "object"
+        collapsed: true
+        required: false
+        fields:
+          - { label: Titre, name: title, widget: string }
+          - label: "Opérations"
+            name: "operations"
+            widget: "list"
+            fields:
+              - { label: Titre, name: title, widget: string }
+              - { label: Description, name: description, widget: text }
       - label: "Section contact"
         name: "contact"
         widget: "object"

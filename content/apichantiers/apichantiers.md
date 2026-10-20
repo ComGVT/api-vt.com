@@ -59,6 +59,20 @@ listAndMedia:
       * Une structure doublement certifiée ISO 9001 et Qualiopi
       * Des services d’hygiène de vie, de diététique ou d’apprentissage du français
       * Une capacité de développement et d’innovation de nouveaux produits et services
+financement:
+  title: API CHANTIERS est financé par le programme national FSE+ dans le cadre
+    de l'opération suivante
+  operations:
+    - title: "2026 - ACI API Chantier 02 — Opération n°202601793"
+      description: "Remise à l’emploi de femmes et d’hommes en difficultés sur les
+        métiers du bâtiment, des entretiens des espaces naturels et de la
+        collecte et de la valorisation des déchets. S’inscrit dans le cadre du
+        Programme national FSE+ Emploi - Inclusion - Jeunesse Compétences au
+        titre de la priorité 1 - 1.h : Favoriser l’inclusion active afin de
+        promouvoir l’égalité des chances, la non-discrimination et la
+        participation active, et améliorer l’employabilité, en particulier
+        pour les groupes défavorisés. Mesure 1.h.91 : Soutien à l’insertion par
+        l’activité économique. Montant sollicité : 72 100 €."
 contact:
   description: >-
     Notre service « Accompagnement » se tient à votre disposition pour répondre
