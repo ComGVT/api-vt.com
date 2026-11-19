@@ -13,7 +13,7 @@ text: >-
 
 
   ##### **[vidéo de lutte contre la fraude](https://www.youtube.com/watch?v=2zTzz9XdY8g)**
-signup: https://api-vt.com/assets/img/tcf-api-ok.pdf
+signup: https://api-vt.com/assets/img/tcf-inscription.pdf
 catalogue: /assets/img/tcf-api-ok.pdf
 catalog: ""
 ---
